@@ -1,4 +1,5 @@
 <template>
+
   <div class="wrapper">
     <div class="header-wrapper" >
       <!--下载App广告-->
@@ -41,7 +42,7 @@
 
 
     <!--导航-->
-    <div class="nav">
+    <div class="nav" ref="nav">
       <ul class="tab">
         <li class="tab-item">
           <router-link to="/home/one">首页</router-link>
@@ -68,11 +69,25 @@
 </template>
 
 <script>
+
+  import BScroll from 'better-scroll'
+
   export default {
     data(){ //判断显示与隐藏
       return {
         isShow: true,
       }
+    },
+
+    mounted(){
+      //创建导航的scroll对象
+       this.$nextTick(()=>{
+         new BScroll(this.$refs.nav,{
+           click:true,
+           scrollX:true
+         })
+
+       })
     },
     closeDownload () {
       this.isShow = !this.isShow
@@ -84,6 +99,7 @@
   .wrapper
     width 100%
     .header-wrapper
+      /*height 50px*/
       width 100%
       background-color: #fff;
       .fix
@@ -149,14 +165,16 @@
               display inline-block
               vertical-align top
     .nav
-
+      /*position relative*/
       .tab
        /* overflow-x auto
         overflow-y hidden*/
-        /*position fixed*/
+        /*position absolute*/
+        z-index 1000
         margin-top 85px
         background: #fff
         width 120%
+        /*width 100%*/
         display flex
         white-space nowrap
         height 36px

@@ -5,8 +5,6 @@ import App from './App'
 import router from './router'
 
 
-
-
 //使用mint-ui
 
 import { Swipe, SwipeItem } from 'mint-ui';
@@ -14,6 +12,8 @@ Vue.component(Swipe.name, Swipe);
 Vue.component(SwipeItem.name, SwipeItem);
 
 
+import VueScroller from 'vue-scroller'
+Vue.use(VueScroller)
 
 Vue.config.productionTip = false
 
