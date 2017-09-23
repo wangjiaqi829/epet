@@ -27,7 +27,8 @@
 
 <style lang="stylus" rel="stylesheet/stylus">
   .tab-warp
-    width 375px
+    /*width 375px*/
+    width 100%
     display flex
     height: 36px
     line-height: 36px

@@ -51,8 +51,8 @@ export default new Router({
           component:six,
         },
         {
-          path:'one',
-          redirect:one,
+          path:'/',
+          redirect:"/home/one",
         }
       ]
     },

@@ -66,19 +66,15 @@
 </template>
 
 <script>
-
   export default {
-
     data(){ //判断显示与隐藏
       return {
         isShow: true,
       }
     },
-
     closeDownload () {
       this.isShow = !this.isShow
     },
-
   }
 </script>
 
@@ -118,7 +114,8 @@
           margin-bottom 10px
           .epet-search
             padding 8px
-            width:375px
+            /*width:375px*/
+            width 100%
             .location
               display inline-block
               font-size 14px
@@ -129,6 +126,7 @@
               .search
                 border none
                 width 230px
+                /*width 100%*/
                 height 25px
                 background #f6f6f6
                 border-radius 4px
@@ -145,7 +143,22 @@
             .epet-category
               display inline-block
               vertical-align top
-      /*.nav
-        .tab
-          width:120%*/
+    .nav
+      .tab
+        width 120%
+        display flex
+        white-space nowrap
+        height 36px
+        line-height 36px
+        .tab-item
+          font-size 14px
+          color #666
+          width 0
+          flex 1
+          text-align center
+          & > a
+            display block
+            &.active
+              color #e73f85
+              border-bottom 2px solid #e73f85
 </style>
