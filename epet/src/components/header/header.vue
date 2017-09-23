@@ -34,9 +34,11 @@
               <img src="./mydope.png" width="24" height="24">
             </a>
           </div>
+
         </div>
       </div>
     </div>
+
 
     <!--导航-->
     <div class="nav">
@@ -83,9 +85,6 @@
     width 100%
     .header-wrapper
       width 100%
-      /*height 155px*/
-      /*position fixed
-      z-index 100*/
       background-color: #fff;
       .fix
         position fixed
@@ -93,6 +92,10 @@
         background-color: #fff;
         height 155px
       .download-app
+        top 0
+        position fixed
+        z-index 100
+        background-color: #fff;
         width 100%
         .download-img
           width 100%
@@ -113,8 +116,11 @@
         .content
           margin-bottom 10px
           .epet-search
+            position fixed
+            z-index 100
+            margin-top -35px
+            background: #fff
             padding 8px
-            /*width:375px*/
             width 100%
             .location
               display inline-block
@@ -126,7 +132,6 @@
               .search
                 border none
                 width 230px
-                /*width 100%*/
                 height 25px
                 background #f6f6f6
                 border-radius 4px
@@ -144,7 +149,13 @@
               display inline-block
               vertical-align top
     .nav
+
       .tab
+       /* overflow-x auto
+        overflow-y hidden*/
+        /*position fixed*/
+        margin-top 85px
+        background: #fff
         width 120%
         display flex
         white-space nowrap

@@ -1,181 +1,164 @@
 <template>
-  <div>
-    <div class="fixHeader">
-      <div class="xiazaibaApp">
-        <div class="wrapper">
-        <span class="closebtn">
-          <img src="//static.epetbar.com/static_wap/lib/common_images/closebtn_03.png" alt="关闭广告">
-        </span>
-          <div class="appImg">
-            <a href="http://wap.epet.com/download.html?appname=epetmall" style="display: block;">
-              <img :src="dog.xiazaiApp">
+  <div class="wrapper">
+    <div class="header-wrapper" >
+      <!--下载App广告-->
+      <div class="download-app" v-show="isShow">
+        <div class="rela">
+          <div class="download-img">
+            <a href="javascript:;">
+              <i>
+                <span class="close-btn" > <!--@click="closeDownload"-->
+                  <img src="./closebtn_03.png" width="15" height="15">
+                </span>
+              </i>
             </a>
           </div>
         </div>
       </div>
-      <div class="headerBox">
-        <div class="topFix">
-          <div class="address">
-            狗站|<a href="">天津<span class="triangle"></span></a>
-          </div>
-          <div class="search">
-            <a href="#">
-              <input type="search" placeholder="搜索商品和品牌">
-              <span class="iSearch"></span>
+
+      <!--头部-->
+      <div class="header">
+        <div class="content">
+          <div class="epet-search">
+            <div class="location">
+              <span>狗站</span>|<a href="" style="color: black">北京</a>
+              <img src="./index_icon_comment_sanjiao.png" alt="小三角" width="8" height="5">
+              <i></i>
+            </div>
+            <!--搜索框-->
+            <div class="search-text">
+              <input type="search" placeholder="搜索商品和品牌" class="search">
+              <span></span>
+            </div>
+            <a href="" class="epet-category">
+              <img src="./mydope.png" width="24" height="24">
             </a>
-          </div>
-          <div class="dialog">
-            <a href="#">
-              <img :src="dog.epet_category">
-            </a>
-          </div>
-        </div>
-        <div class="tab">
-          <div class="tab_item active">
-            <router-link to="/dog/indexpage/homepage">首页</router-link>
-            <i class="active"></i>
-          </div>
-          <div class="tab_item">
-            <router-link to="/dog/indexpage/dogFood">狗粮</router-link>
-            <i></i>
-          </div>
-          <div class="tab_item">
-            <router-link to="/dog/indexpage/specialSale">特卖</router-link>
-            <i></i>
-          </div>
-          <div class="tab_item">
-            <router-link to="/dog/indexpage/newProductVideo">潮品视频</router-link>
-            <i></i>
-          </div>
-          <div class="tab_item">
-            <router-link to="/dog/indexpage/newDogClass">新汪课堂</router-link>
-            <i></i>
           </div>
         </div>
       </div>
     </div>
+
+    <!--导航-->
+    <div class="nav">
+      <ul class="tab">
+        <li class="tab-item">
+          <router-link to="/home/one">首页</router-link>
+        </li>
+        <li class="tab-item">
+          <router-link to="/home/two">狗粮</router-link>
+        </li>
+        <li class="tab-item">
+          <router-link to="/home/three">医疗保健</router-link>
+        </li>
+        <li class="tab-item">
+          <router-link to="/home/four">零食玩具</router-link>
+        </li>
+        <li class="tab-item">
+          <router-link to="/home/five">日用外出</router-link>
+        </li>
+        <li class="tab-item">
+          <router-link to="/home/six">美容香波</router-link>
+        </li>
+      </ul>
+
+    </div>
   </div>
 </template>
+
 <script>
   export default {
-    computed: {
-      dog () {
-        return this.$store.getters.dog
+    data(){ //判断显示与隐藏
+      return {
+        isShow: true,
       }
-    }
+    },
+    closeDownload () {
+      this.isShow = !this.isShow
+    },
   }
 </script>
-<style lang="stylus" rel="stylesheet/stylus">
-  @import "../../common/stylus.styl"
-  .fixHeader
-    position relative
-    clear-fix()
-    .xiazaibaApp
-      position relative
-      z-index 100
-      background #fff
-      display block
-      .wrapper
-        top:0
-        width:100%
-        .closebtn
-          display inline-block
-          width 5%
-          margin-right 2%
-          vertical-align middle
-          position absolute
-          left 2%
-          top 50%
-          margin-top -2%
-          img
-            width 100%
-        .appImg
-          width 100%
-          img
-            width 100%
-    .headerBox
-      position relative
-      width 100%
-      background #fff
-      z-index 100
-      .topFix
-        box-sizing border-box
-        width 100%
-        height 43px
-        padding 5px 10px
-        .address
-          width 20%
-          float left
-          color #333
-          font-size 14px
-          text-align center
-          line-height 43px
-          a
-            color: #333
-            .triangle
-              display inline-block
-              width 0
-              height 0
-              border-bottom 4px solid #333
-              border-top 4px solid transparent
-              border-left 4px solid transparent
-              border-right 4px solid transparent
-              line-height 43px
-              margin 0 0 5px 2px
-        .search
-          position relative
-          padding 0 10px
-          box-sizing border-box
-          width 70%
-          float left
-          line-height 43px
-          input
-            background-color #f6f6f6
-            width 100%
-            border none
-            height 25px
-            border-radius 4px
-            font-size 13px
-            text-indent 10px
-            outline none
-          .iSearch
-            position absolute
-            top 18px
-            right 20px
-            width 11px
-            height 11px
-            display inline-block
-            background url(search.png)
-            background-size 100% 100%
-        .dialog
-          width 10%
-          float left
-          line-height 43px
-          img
-            width 25px
-            height 25px
-            margin-bottom -9px
 
-      .tab
+<style lang="stylus" rel="stylesheet/stylus">
+  .wrapper
+    width 100%
+    .header-wrapper
+      width 100%
+      /*height 155px*/
+      /*position fixed
+      z-index 100*/
+      background-color: #fff;
+      .fix
+        position fixed
+        z-index 100
+        background-color: #fff;
+        height 155px
+      .download-app
         width 100%
+        .download-img
+          width 100%
+          a
+            display block
+            height 55px
+            i
+              background-image url("./download.png")
+              display block
+              width 100%
+              height 55px
+              background-size 100%
+              .close-btn
+                line-height 55px
+                margin-left 10px
+      .header
+        width 100%
+        .content
+          margin-bottom 10px
+          .epet-search
+            padding 8px
+            /*width:375px*/
+            width 100%
+            .location
+              display inline-block
+              font-size 14px
+              img
+                vertical-align middle
+            .search-text
+              display inline-block
+              .search
+                border none
+                width 230px
+                /*width 100%*/
+                height 25px
+                background #f6f6f6
+                border-radius 4px
+                color #9e9e9e
+                text-indent 10px
+                font-size 13px
+                outline none
+              span
+                display inline-block
+                background-image url("./search.png")
+                width 11px
+                height 11px
+                background-size 11px 11px
+            .epet-category
+              display inline-block
+              vertical-align top
+    .nav
+      .tab
+        width 120%
+        display flex
+        white-space nowrap
         height 36px
         line-height 36px
-        .tab_item
-          position relative
-          display inline-block
-          float left
-          width 20%
+        .tab-item
+          font-size 14px
+          color #666
+          width 0
+          flex 1
           text-align center
-          i
-            position absolute
-            height 3px
-            width 100%
-            bottom 0
-            left 0
+          & > a
+            display block
             &.active
-              background-color: #459d36;
-          &.active
-            a
-              color: #459d36
-
+              color #e73f85
+              border-bottom 2px solid #e73f85
 </style>
