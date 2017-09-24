@@ -4,7 +4,7 @@
  <div>
    <!--<scroller>-->
   <div class="warp">
-    <mt-swipe :auto="4000">
+    <mt-swipe :auto="4000" style="height: 200px">
       <mt-swipe-item>
         <img src="./9.20img.jpg" alt="9.20">
       </mt-swipe-item>
@@ -75,6 +75,7 @@
       </div>
     </div>
 
+    <spilt></spilt>
     <!--每日特价-->
     <div class="surprise-wrapper">
       <div class="surprise-time">
@@ -100,32 +101,17 @@
 
 
       <!--每日特价下边的横排滚动图-->
-   <!--     <div class="surprise-pro pl5 mb10">
-          <div class="swiper-container surprise-scroll swiper-container-horizontal">
-            <div class="swiper-wrapper" style="transition-duration: 0ms; transform: translate3d(0px, 0px, 0px);"><div class="swiper-slide swiper-slide-active" style="width: 98.5714px; margin-right: 10px;"><div class="pro-block">
-              <a href="https://wap.epet.com/surprise/Main.html?fw=0"><div class="thispro-img loadimg-nofixed"><img class="image" src="https://img1.epetbar.com/2016-12/06/12/a3a78e3d2382a229a800ba2400c47492.jpg" lazy="loaded">
-                &lt;!&ndash;&ndash;&gt; &lt;!&ndash;&ndash;&gt;
-              </div>
-                <div class="cred ftc mt5">
-                  <span class="ft12">¥</span>
-                  <span class="ft17">72.00</span>
-                </div>
-                <p class="c999 ftc ft12">省￥47.00</p>
-              </a>
-            </div>
-            </div>
+          <div class="TJImgwarp" ref="TJImgwarp">
+            <div class="TJList" ref="TJList">
               <div class="swiper-slide swiper-slide-next" style="width: 98.5714px; margin-right: 10px;">
                 <div class="pro-block">
                   <a href="https://wap.epet.com/surprise/Main.html?fw=0">
-                    <div class="thispro-img loadimg-nofixed">
                       <img class="image" src="https://img1.epetbar.com/2016-09/14/14/339220365859a4362207d5e703b77d08.jpg" lazy="loaded">
-                      &lt;!&ndash;&ndash;&gt; &lt;!&ndash;&ndash;&gt;
-                    </div>
                     <div class="cred ftc mt5">
-                      <span class="ft12">¥</span>
-                      <span class="ft17">2.95</span>
+                      <span class="ft12" style="color: red;font-size: 12px">¥</span>
+                      <span class="ft17" style="color: red;font-size: 12px">2.95</span>
                     </div>
-                    <p class="c999 ftc ft12">省￥2.95</p>
+                    <p class="c999 ftc ft12" style="font-size: 12px">省￥2.95</p>
                   </a>
                 </div>
               </div>
@@ -133,7 +119,6 @@
                 <div class="pro-block"><a href="https://wap.epet.com/surprise/Main.html?fw=0">
                   <div class="thispro-img loadimg-nofixed">
                     <img class="image" src="https://img1.epetbar.com/2015-01/15/5a90ddf9fd4f0b741d075a4b3a34c446.jpg" lazy="loaded">
-                    &lt;!&ndash;&ndash;&gt; &lt;!&ndash;&ndash;&gt;
                   </div>
                   <div class="cred ftc mt5">
                   <span class="ft12">¥</span>
@@ -147,7 +132,6 @@
                 <div class="pro-block"><a href="https://wap.epet.com/surprise/Main.html?fw=0">
             <div class="thispro-img loadimg-nofixed">
               <img class="image" src="https://img1.epetbar.com/2015-08/17/10/41f3573807331310e3177a0885f0ad2c.jpg" lazy="loaded">
-              &lt;!&ndash;&ndash;&gt; &lt;!&ndash;&ndash;&gt;
             </div>
                   <div class="cred ftc mt5">
                   <span class="ft12">¥</span>
@@ -158,10 +142,10 @@
                 </div>
               </div>
               <div class="swiper-slide" style="width: 98.5714px; margin-right: 10px;">
-                <div class="pro-block"><a href="https://wap.epet.com/surprise/Main.html?fw=0">
+                <div class="pro-block">
+                  <a href="https://wap.epet.com/surprise/Main.html?fw=0">
                   <div class="thispro-img loadimg-nofixed">
-                    <img class="image" src="https://img1.epetbar.com/2016-06/24/8/0ee3f3ca95593c80a84c0cb55a205a9e.jpg" lazy="loaded">
-                &lt;!&ndash;&ndash;&gt; &lt;!&ndash;&ndash;&gt;
+                    <img class="image" src="https://img1.epetbar.com/2016-11/03/16/1ebcafcff3c7c225463bed2bbaa83a84.jpg" lazy="loaded">
               </div>
                 <div class="cred ftc mt5">
                   <span class="ft12">¥</span>
@@ -174,7 +158,6 @@
               <div class="swiper-slide" style="width: 98.5714px; margin-right: 10px;">
                 <div class="pro-block"><a href="https://wap.epet.com/surprise/Main.html?fw=0">
                   <div class="thispro-img loadimg-nofixed"><img class="image" src="https://img1.epetbar.com/2017-07/07/10/ff515455f9479ad28b2fa7639a5d77a7.jpg" lazy="loaded">
-                    &lt;!&ndash;&ndash;&gt; &lt;!&ndash;&ndash;&gt;
                   </div>
                   <div class="cred ftc mt5">
                     <span class="ft12">¥</span>
@@ -187,101 +170,93 @@
               <div class="swiper-slide" style="width: 98.5714px; margin-right: 10px;">
                 <div class="pro-block"><a href="https://wap.epet.com/surprise/Main.html?fw=0">
                   <div class="thispro-img loadimg-nofixed">
-                    <img class="image" src="https://img1.epetbar.com/2014-10/25/359adaa23113ff2dc85dfad75b81e7d8.jpg" lazy="loaded">
-                    &lt;!&ndash;&ndash;&gt; &lt;!&ndash;&ndash;&gt;
+                    <img class="image" src="https://img1.epetbar.com/2015-08/17/10/41f3573807331310e3177a0885f0ad2c.jpg" lazy="loaded">
                   </div>
                   <div class="cred ftc mt5">
                     <span class="ft12">¥</span>
-                    <span class="ft17">9.90</span>
+                    <span class="ft17">6.60</span>
                   </div>
-                  <p class="c999 ftc ft12">省￥3.90</p>
+                  <p class="c999 ftc ft12">省￥6.60</p>
                 </a>
                 </div>
-              </div>
-              <div class="swiper-slide" style="width: 98.5714px; margin-right: 10px;">
-              <div class="pro-block">
-                <a href="https://wap.epet.com/surprise/Main.html?fw=0">
-                <div class="thispro-img loadimg-nofixed">
-                  <img class="image" src="https://img1.epetbar.com/2017-08/17/21/1dccb646bd731afac328e0ff1b463748.jpg" lazy="loaded">
-                  &lt;!&ndash;&ndash;&gt; &lt;!&ndash;&ndash;&gt;
-                </div>
-                  <div class="cred ftc mt5">
-                    <span class="ft12">¥</span>
-                    <span class="ft17">2.90</span>
-                  </div>
-                  <p class="c999 ftc ft12">省￥2.00</p>
-                </a>
-              </div>
               </div>
               <div class="swiper-slide" style="width: 98.5714px; margin-right: 10px;">
                 <div class="pro-block">
                   <a href="https://wap.epet.com/surprise/Main.html?fw=0">
                     <div class="thispro-img loadimg-nofixed">
-                      <img class="image" src="https://img1.epetbar.com/2017-08/04/14/163ba5ef12f39bc57bca5b33cf0b0fc2.jpg" lazy="loaded">
-                      &lt;!&ndash;&ndash;&gt; &lt;!&ndash;&ndash;&gt;
+                      <img class="image" src="https://img1.epetbar.com/2016-11/03/16/1ebcafcff3c7c225463bed2bbaa83a84.jpg" lazy="loaded">
                     </div>
                     <div class="cred ftc mt5">
                       <span class="ft12">¥</span>
-                      <span class="ft17">25.90</span>
+                      <span class="ft17">12.50</span>
                     </div>
-                    <p class="c999 ftc ft12">省￥13.10</p>
+                    <p class="c999 ftc ft12">省￥12.50</p>
                   </a>
                 </div>
               </div>
               <div class="swiper-slide" style="width: 98.5714px; margin-right: 10px;">
                 <div class="pro-block"><a href="https://wap.epet.com/surprise/Main.html?fw=0">
-                  <div class="thispro-img loadimg-nofixed"><img class="image" src="https://img1.epetbar.com/2017-02/15/10/dc1a1e20154a435561bfe1f5177c6ba1.jpg" lazy="loaded">
-                    &lt;!&ndash;&ndash;&gt; &lt;!&ndash;&ndash;&gt;
+                  <div class="thispro-img loadimg-nofixed"><img class="image" src="https://img1.epetbar.com/2017-07/07/10/ff515455f9479ad28b2fa7639a5d77a7.jpg" lazy="loaded">
                   </div>
                   <div class="cred ftc mt5">
                     <span class="ft12">¥</span>
-                    <span class="ft17">59.90</span>
+                    <span class="ft17">4.90</span>
                   </div>
-                  <p class="c999 ftc ft12">省￥6.10</p>
+                  <p class="c999 ftc ft12">省￥1.90</p>
                 </a>
                 </div>
               </div>
-              <div class="swiper-slide" style="width: 98.5714px; margin-right: 10px;">
-                <div class="pro-block"><a href="https://wap.epet.com/surprise/Main.html?fw=0">
-                  <div class="thispro-img loadimg-nofixed">
-                    <img class="image" src="https://img1.epetbar.com/2016-01/28/10/95a2cb3f0fb2ae38a6abddc4efb8141b.jpg" lazy="loaded">
-                    &lt;!&ndash;&ndash;&gt; &lt;!&ndash;&ndash;&gt;
-                  </div>
-                  <div class="cred ftc mt5">
-                    <span class="ft12">¥</span>
-                    <span class="ft17">21.90</span>
-                  </div> <p class="c999 ftc ft12">省￥13.10</p>
-                </a>
-                </div>
-              </div>
-              <div class="swiper-slide" style="width: 98.5714px; margin-right: 10px;">
-                <div class="pro-block">
-                  <a href="https://wap.epet.com/surprise/Main.html?fw=0">
-                  <div class="thispro-img loadimg-nofixed">
-                    <img class="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" lazy="loading">
-                    &lt;!&ndash;&ndash;&gt; &lt;!&ndash;&ndash;&gt;
-                  </div>
-                    <div class="cred ftc mt5">
-                      <span class="ft12">¥</span>
-                      <span class="ft17">9.90</span>
-                    </div>
-                    <p class="c999 ftc ft12">省￥10.10</p>
-                  </a>
-                </div>
-              </div>
-              <div class="swiper-slide" style="width: 98.5714px; margin-right: 10px;">
-                <div class="pro-block"><a href="https://wap.epet.com/surprise/Main.html?fw=0"><div class="thispro-img loadimg-nofixed"><img class="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" lazy="loading"> <div class="vipnum"><img src="https://static.epetbar.com/static_wap/appmall/lib/user/vip/v3.png"></div> &lt;!&ndash;&ndash;&gt;</div> <div class="cred ftc mt5"><span class="ft12">¥</span><span class="ft17">15.00</span></div> <p class="c999 ftc ft12">省￥13.00</p></a></div></div></div></div></div>-->
+            </div>
+          </div>
+
+     </div>
+
+
+    <!--热门栏目-->
+    <spilt></spilt>
+
+    <div class="currency_ad">
+      <div class="currency-adcon show_line dibimg1">
+        <div class="titdiv rela">
+          <div class="clum-tit"></div>
+          <!--热门栏目-->
+        </div>
+
+        <div class="divboximg flex">
+
+        </div>
+      </div>
+    </div>
+
+
 
 
     </div>
   </div>
 
- </div>
+
 
 </template>
 
 <script>
+  import BScroll from 'better-scroll'
+  import spilt from '../spilt/split.vue'
+
   export default {
+
+    mounted(){
+      this.$nextTick(()=>{
+       new BScroll(this.$refs.TJList,{
+          click:true,
+          scrollX:true
+        })
+      })
+
+    },
+
+    components: {
+      spilt
+    }
   }
 </script>
 
@@ -292,7 +267,8 @@
     /*margin-top 150px*/
     /*padding-top 300px*/
     width 100%
-    height: 200px
+    /*height: 200px*/
+    height 800px
     img
       width 100%
       height 100%
@@ -344,4 +320,40 @@
           height 100%
           /*position absolute
           right 0*/
+    .TJImgwarp
+      width:100%
+      height:100%
+      margin 0 auto
+      position relative
+      z-index 1
+      /*float left
+      white-space nowrap*/
+      .TJList
+        height 100%
+        display flex
+        float left
+        box-sizing content-box
+        .swiper-slide
+          position relative
+          height 80px
+          width 100%
+          img
+            position absolute
+            top:0
+            right:0
+            height: 64px
+            width: 84px
+        .cred
+          color red
+          font-size 12px
+          margin-top 72px
+          text-align center
+          /*height 20px*/
+          height 100%
+          width 100%
+          margin-left 10px
+        p
+          font-size 10px
+          color: #999
+
 </style>
