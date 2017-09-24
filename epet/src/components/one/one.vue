@@ -216,13 +216,16 @@
     <spilt></spilt>
 
     <div class="currency_ad">
-      <div class="currency-adcon show_line dibimg1">
+      <div class="currency-adcon ">
         <div class="titdiv rela">
-          <div class="clum-tit"></div>
+          <div class="clum-tit">
+            <a href="javascript:;">
+              <img src="https://img2.epetbar.com/nowater/2017-03/09/18/ca98c516add7611e3d0d810d58c087bf.jpg" alt="热门栏目">
+            </a>
+          </div>
           <!--热门栏目-->
         </div>
 
-        <spilt></spilt>
         <div class="divboximg flex">
 
         </div>
@@ -249,7 +252,8 @@
       this.$nextTick(()=>{
        new BScroll(this.$refs.TJImgwarp,{
           click:true,
-          scrollX:true
+          scrollX:true,
+          scrollY:false
         })
       })
 
@@ -268,8 +272,7 @@
     /*margin-top 150px*/
     /*padding-top 300px*/
     width 100%
-    /*height: 200px*/
-    height 800px
+    height: 2000px
     img
       width 100%
       height 100%
@@ -294,8 +297,9 @@
               padding-bottom 10px
               padding-top 10px
     .surprise-wrapper
-      height 100%
+      /*height 100%*/
       margin-top: 10px
+      /*margin-bottom 125px*/
     .surprise-time
       font-size 12px
       .surprise-logo
@@ -323,14 +327,14 @@
           right 0*/
     .TJImgwarp
       width:100%
-      height:100%
+      /*height:100%*/
       margin 0 auto
       position relative
       z-index 1
       /*float left
       white-space nowrap*/
       .TJList
-        height 100%
+        /*height 100%*/
         display flex
         float left
         box-sizing content-box
@@ -359,5 +363,18 @@
           font-size 12px
           color: #999
           margin-left 20px
+
+    .currency_ad
+      height 100%
+      margin-top 25px
+      width 100%
+      display inline-block
+      background: #fff
+      .currency-adcon
+        width 100%
+        .rela
+          position relative
+          .clum-tit
+            text-align centert
 
 </style>
