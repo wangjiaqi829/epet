@@ -1,0 +1,478 @@
+/* https://mallcdn.api.epet.com/v3/index/main.html?pet_type=dog&version=345&is_single=1&menu_param=134&system=wap&isWeb=1&_=1506147368690 */
+{
+    "msg": "",
+    "code": "succeed",
+    "login_status": 0,
+    "mall_uid": "epet_0",
+    "mall_user": "",
+    "sys_time": 1506147306,
+    "hash": "",
+    "epet_site": "epet",
+    "is_dynamic": 0,
+    "menus": [],
+    "page_title": "狗狗日用外出",
+    "datas": [
+        {
+            "index": "2414",
+            "is_show": 1,
+            "type": "1",
+            "is_dynamic": "0",
+            "type_name": "图片轮播广告",
+            "value": [
+                {
+                    "advid": "23469",
+                    "atid": "0",
+                    "image": "https://img2.epetbar.com/nowater/2017-09/18/10/05b150c1c3967c76856bdd283bf1c88d.jpg@!water",
+                    "img_size": "750x320",
+                    "target": {
+                        "mode": "web",
+                        "param": "http://sale.epet.com/m/mould/activity/dMjQ4Mw%3D%3D.html?tid=2483"
+                    }
+                }
+            ]
+        },
+        {
+            "index": "2331",
+            "is_show": 1,
+            "type": "102",
+            "is_dynamic": "0",
+            "type_name": "二级可切换菜单",
+            "data": {
+                "categorys": [
+                    {
+                        "name": "餐具",
+                        "image": "https://img1.epetbar.com/2017-09/04/14/9b5eb8eccf2afc5f25f511f18e5417c1.jpg",
+                        "img_size": "187X136",
+                        "image_choose": "https://img1.epetbar.com/2017-09/04/14/cd6019b4fed7a716f7fd90ed24a1644c.jpg",
+                        "image_choose_size": "187X136",
+                        "small_cate": {
+                            "menu_column": 3,
+                            "menus": [
+                                {
+                                    "name": "单碗",
+                                    "image": "https://img1.epetbar.com/2017-09/04/14/d354203958ad208e68f36f217b145602.jpg",
+                                    "img_size": "250X193",
+                                    "target": {
+                                        "mode": "goods_list",
+                                        "param": "cateid:259|extends_str:4369"
+                                    }
+                                },
+                                {
+                                    "name": "双碗",
+                                    "image": "https://img1.epetbar.com/2017-09/04/14/ace66802c0ca25acc7d455599dc3a900.jpg",
+                                    "img_size": "250X193",
+                                    "target": {
+                                        "mode": "goods_list",
+                                        "param": "cateid:259|extends_str:7424"
+                                    }
+                                },
+                                {
+                                    "name": "饮水器/机",
+                                    "image": "https://img1.epetbar.com/2017-09/04/14/9580da74abdc5ddee8786a9e11f57f22.jpg",
+                                    "img_size": "250X193",
+                                    "target": {
+                                        "mode": "goods_list",
+                                        "param": "attrid:4367,4359"
+                                    }
+                                },
+                                {
+                                    "name": "自动喂食器",
+                                    "image": "https://img1.epetbar.com/2017-09/04/14/664bc343a4dd1e7fe4368e9b6ebf4f64.jpg",
+                                    "img_size": "250X193",
+                                    "target": {
+                                        "mode": "goods_list",
+                                        "param": "cateid:259|extends_str:4361"
+                                    }
+                                },
+                                {
+                                    "name": "缓食/防溢碗",
+                                    "image": "https://img1.epetbar.com/2017-09/04/14/64fb9d89261145b02b57fd41aeb89155.jpg",
+                                    "img_size": "250X193",
+                                    "target": {
+                                        "mode": "goods_list",
+                                        "param": "attrid:7104,7425"
+                                    }
+                                },
+                                {
+                                    "name": "辅助用品",
+                                    "image": "https://img1.epetbar.com/2017-09/04/14/793279f8a40a6e9d2295ef5297976e3b.jpg",
+                                    "img_size": "250X193",
+                                    "target": {
+                                        "mode": "goods_list",
+                                        "param": "attrid:7041,4363,4355,4353,7320"
+                                    }
+                                }
+                            ]
+                        },
+                        "target": []
+                    },
+                    {
+                        "name": "清洁",
+                        "image": "https://img1.epetbar.com/2017-09/04/14/3e6884dc8bd65fb7ba7b600b40552f93.jpg",
+                        "img_size": "187X136",
+                        "image_choose": "https://img1.epetbar.com/2017-09/04/14/be673e294a1d6e65969364f9c3b45208.jpg",
+                        "image_choose_size": "187X136",
+                        "small_cate": {
+                            "menu_column": 3,
+                            "menus": [
+                                {
+                                    "name": "除味消毒/配件",
+                                    "image": "https://img1.epetbar.com/2017-09/04/14/c4f76a200c5ec414f26969727da31011.jpg",
+                                    "img_size": "250X193",
+                                    "target": {
+                                        "mode": "goods_list",
+                                        "param": "cateid:261|extends_str:4393"
+                                    }
+                                },
+                                {
+                                    "name": "厕所",
+                                    "image": "https://img1.epetbar.com/2017-09/04/14/360339363d09f659b9abe77de0946cbb.jpg",
+                                    "img_size": "250X193",
+                                    "target": {
+                                        "mode": "goods_list",
+                                        "param": "cateid:261|extends_str:4389"
+                                    }
+                                },
+                                {
+                                    "name": "尿片/裤",
+                                    "image": "https://img1.epetbar.com/2017-09/04/14/3261084199ac12ae5f436036bbf17ae0.jpg",
+                                    "img_size": "250X193",
+                                    "target": {
+                                        "mode": "goods_list",
+                                        "param": "cateid:261|extends_str:4387"
+                                    }
+                                },
+                                {
+                                    "name": "洗手液/湿巾",
+                                    "image": "https://img1.epetbar.com/2017-09/04/14/8199050e1f1ec7d9d432df3b68aa9559.jpg",
+                                    "img_size": "250X193",
+                                    "target": {
+                                        "mode": "goods_list",
+                                        "param": "attrid:4381,6829"
+                                    }
+                                },
+                                {
+                                    "name": "粘毛器",
+                                    "image": "https://img1.epetbar.com/2017-09/04/14/592dbcfcb23f590b2a77dcc9bbc3558f.jpg",
+                                    "img_size": "250X193",
+                                    "target": {
+                                        "mode": "goods_list",
+                                        "param": "cateid:261|extends_str:4383"
+                                    }
+                                },
+                                {
+                                    "name": "清洁灭菌工具",
+                                    "image": "https://img1.epetbar.com/2017-09/04/14/f087e41b546a9ec9f07b1dadef38e978.jpg",
+                                    "img_size": "250X193",
+                                    "target": {
+                                        "mode": "goods_list",
+                                        "param": "cateid:261|extends_str:6532"
+                                    }
+                                }
+                            ]
+                        },
+                        "target": []
+                    },
+                    {
+                        "name": "外出",
+                        "image": "https://img1.epetbar.com/2017-09/04/14/c1574df0b2578ed6321cb0280af793ed.jpg",
+                        "img_size": "187X136",
+                        "image_choose": "https://img1.epetbar.com/2017-09/04/14/f2b583ec2de1c3f66e13881b35ffabf3.jpg",
+                        "image_choose_size": "187X136",
+                        "small_cate": {
+                            "menu_column": 3,
+                            "menus": [
+                                {
+                                    "name": "外出餐具",
+                                    "image": "https://img1.epetbar.com/2017-09/04/14/b32aab554ae7b3a89c58c8f9e061fb37.jpg",
+                                    "img_size": "250X193",
+                                    "target": {
+                                        "mode": "goods_list",
+                                        "param": "cateid:262|extends_str:7435"
+                                    }
+                                },
+                                {
+                                    "name": "拾便器",
+                                    "image": "https://img1.epetbar.com/2017-09/04/14/104c16b1b621c9f7e3259b5e1e9edbe1.jpg",
+                                    "img_size": "250X193",
+                                    "target": {
+                                        "mode": "goods_list",
+                                        "param": "cateid:262|extends_str:7434"
+                                    }
+                                },
+                                {
+                                    "name": "外出包",
+                                    "image": "https://img1.epetbar.com/2017-09/04/14/51f6ee0dbe5549c7ab8016c004219cde.jpg",
+                                    "img_size": "250X193",
+                                    "target": {
+                                        "mode": "goods_list",
+                                        "param": "attrid:4415,4409"
+                                    }
+                                },
+                                {
+                                    "name": "狗狗背包",
+                                    "image": "https://img1.epetbar.com/2017-09/04/14/0580f1e792ab83b5fd2f866df94a3e95.jpg",
+                                    "img_size": "250X193",
+                                    "target": {
+                                        "mode": "goods_list",
+                                        "param": "cateid:262|extends_str:4411"
+                                    }
+                                },
+                                {
+                                    "name": "宠物车垫",
+                                    "image": "https://img1.epetbar.com/2017-09/04/14/848dce83f51cccb7d3aa96113b2dc07a.jpg",
+                                    "img_size": "250X193",
+                                    "target": {
+                                        "mode": "goods_list",
+                                        "param": "cateid:262|extends_str:4405"
+                                    }
+                                },
+                                {
+                                    "name": "辅助用品",
+                                    "image": "https://img1.epetbar.com/2017-09/04/14/255a30bcd592774df72fad212ca67c9e.jpg",
+                                    "img_size": "250X193",
+                                    "target": {
+                                        "mode": "goods_list",
+                                        "param": "attrid:4407,4403,4401,7436"
+                                    }
+                                }
+                            ]
+                        },
+                        "target": []
+                    },
+                    {
+                        "name": "牵引",
+                        "image": "https://img1.epetbar.com/2017-09/04/14/afe12a6f960ed317ea6403669607b9b6.jpg",
+                        "img_size": "187X136",
+                        "image_choose": "https://img1.epetbar.com/2017-09/04/14/31a404fa764528b2c652ea1c9b58ddf5.jpg",
+                        "image_choose_size": "187X136",
+                        "small_cate": {
+                            "menu_column": 3,
+                            "menus": [
+                                {
+                                    "name": "福莱希",
+                                    "image": "https://img1.epetbar.com/2017-09/04/14/af4fb0b986250099255637cc5b7a935b.jpg",
+                                    "img_size": "250X193",
+                                    "target": {
+                                        "mode": "goods_list",
+                                        "param": "cateid:3274"
+                                    }
+                                },
+                                {
+                                    "name": "颈圈",
+                                    "image": "https://img1.epetbar.com/2017-09/04/14/a057fb369e6ea020dd68477c009e9948.jpg",
+                                    "img_size": "250X193",
+                                    "target": {
+                                        "mode": "goods_list",
+                                        "param": "cateid:2699"
+                                    }
+                                },
+                                {
+                                    "name": "牵引套装",
+                                    "image": "https://img1.epetbar.com/2017-09/04/14/3ad12fd47920184ae73da05586e460eb.jpg",
+                                    "img_size": "250X193",
+                                    "target": {
+                                        "mode": "goods_list",
+                                        "param": "attrid:6473,6472,6471,7508,6492,6493,6494,6495,6496"
+                                    }
+                                },
+                                {
+                                    "name": "牵引带",
+                                    "image": "https://img1.epetbar.com/2017-09/04/14/7b27efef7fcf198d923fa877b3449ab1.jpg",
+                                    "img_size": "250X193",
+                                    "target": {
+                                        "mode": "goods_list",
+                                        "param": "cateid:2700"
+                                    }
+                                },
+                                {
+                                    "name": "P链/蛇链",
+                                    "image": "https://img1.epetbar.com/2017-09/04/14/644470e284bd4de3321a666f4a7ef038.jpg",
+                                    "img_size": "250X193",
+                                    "target": {
+                                        "mode": "goods_list",
+                                        "param": "cateid:2703"
+                                    }
+                                }
+                            ]
+                        },
+                        "target": []
+                    }
+                ]
+            }
+        },
+        {
+            "index": "2419",
+            "is_show": 1,
+            "type": "21",
+            "is_dynamic": "0",
+            "type_name": "自定义Title模板",
+            "value": {
+                "title_height": "100",
+                "top_line": {
+                    "isline": 0,
+                    "line_color": "",
+                    "padding": "",
+                    "line_image": {}
+                },
+                "bottom_line": {
+                    "isline": 0,
+                    "line_color": "",
+                    "padding": "",
+                    "line_image": {}
+                },
+                "left": {},
+                "center": {
+                    "type": "image",
+                    "text": {},
+                    "img": {
+                        "image": "https://img2.epetbar.com/nowater/2017-09/18/10/06d09ce887bf8731cef730e82368eac4.jpg",
+                        "img_size": "387x31",
+                        "target": {
+                            "mode": "",
+                            "param": ""
+                        }
+                    }
+                },
+                "right": {}
+            }
+        },
+        {
+            "index": "2423",
+            "is_show": 1,
+            "type": "101",
+            "is_dynamic": "0",
+            "type_name": "单广告+商品列表",
+            "data": {
+                "advAndGoods": [
+                    {
+                        "big_image": {
+                            "image": "https://img2.epetbar.com/nowater/2017-09/18/12/b9e23e1068adc63d376f72bfc1636762.jpg@!water",
+                            "img_size": "750X330",
+                            "target": {
+                                "mode": "web",
+                                "param": "http://sale.epet.com/m/mould/activity/ztMjQ5OA%3D%3D.html?tid=2498"
+                            }
+                        },
+                        "goods": [
+                            {
+                                "subject": "2017新款爱旺 叛逆猫宠物毯子 S号61*41cm",
+                                "price": "￥55.10",
+                                "small_image": {
+                                    "image": "https://img1.epetbar.com/2017-08/29/09/74535438ffee4e28f3f374855003ec01.jpg",
+                                    "img_size": "195X170",
+                                    "target": {
+                                        "mode": "goods_extend",
+                                        "param": {
+                                            "gid": "212744",
+                                            "extend_pam": "buytype:discount|atid:17030"
+                                        }
+                                    }
+                                },
+                                "lable": {
+                                    "name": "折扣",
+                                    "bg_color": "#ff0000"
+                                }
+                            },
+                            {
+                                "subject": "捣蛋鬼 粉色提拉式航空箱 长61cm*宽39cm*高45cm",
+                                "price": "￥159.60",
+                                "small_image": {
+                                    "image": "https://img1.epetbar.com/2015-02/05/03fe97c86dced8c865c3c998c1fdab74.jpg",
+                                    "img_size": "195X170",
+                                    "target": {
+                                        "mode": "goods_extend",
+                                        "param": {
+                                            "gid": "153631",
+                                            "extend_pam": "buytype:discount|atid:17030"
+                                        }
+                                    }
+                                },
+                                "lable": {
+                                    "name": "折扣",
+                                    "bg_color": "#ff0000"
+                                }
+                            },
+                            {
+                                "subject": "意潇 精致圆蛋形塑料碗 碗口直径14cm*碗深5cm 红色",
+                                "price": "￥4.75",
+                                "small_image": {
+                                    "image": "https://img1.epetbar.com/2015-11/19/16/3bb32e54e58edb863f23964b157b423a.jpg",
+                                    "img_size": "195X170",
+                                    "target": {
+                                        "mode": "goods_extend",
+                                        "param": {
+                                            "gid": "161568",
+                                            "extend_pam": "buytype:discount|atid:17030"
+                                        }
+                                    }
+                                },
+                                "lable": {
+                                    "name": "折扣",
+                                    "bg_color": "#ff0000"
+                                }
+                            },
+                            {
+                                "subject": "意大利原装进口United Pets 狗狗外出航空箱 粉色51*33*37cm",
+                                "price": "￥387.60",
+                                "small_image": {
+                                    "image": "https://img1.epetbar.com/2016-11/28/8/8b3cec01cbba6261124f14895465a970.jpg",
+                                    "img_size": "195X170",
+                                    "target": {
+                                        "mode": "goods_extend",
+                                        "param": {
+                                            "gid": "187939",
+                                            "extend_pam": "buytype:discount|atid:17030"
+                                        }
+                                    }
+                                },
+                                "lable": {
+                                    "name": "折扣",
+                                    "bg_color": "#ff0000"
+                                }
+                            },
+                            {
+                                "subject": "karlie 木纹犬用不锈钢食碗 深棕色 700ml",
+                                "price": "￥118.75",
+                                "small_image": {
+                                    "image": "https://img1.epetbar.com/2016-03/18/10/f5d1c4915fe17190df3d372f9a98e9d3.jpg",
+                                    "img_size": "195X170",
+                                    "target": {
+                                        "mode": "goods_extend",
+                                        "param": {
+                                            "gid": "168484",
+                                            "extend_pam": "buytype:discount|atid:17030"
+                                        }
+                                    }
+                                },
+                                "lable": {
+                                    "name": "折扣",
+                                    "bg_color": "#ff0000"
+                                }
+                            },
+                            {
+                                "subject": "日本Petstyle 犬用卡通宠物碳化青竹宠物凉席 50*37.5cm 小号",
+                                "price": "￥17.10",
+                                "small_image": {
+                                    "image": "https://img1.epetbar.com/2015-11/25/16/848db708e64045effcc0bfa6180fe30a.jpg",
+                                    "img_size": "195X170",
+                                    "target": {
+                                        "mode": "goods_extend",
+                                        "param": {
+                                            "gid": "129343",
+                                            "extend_pam": "buytype:discount|atid:17030"
+                                        }
+                                    }
+                                },
+                                "lable": {
+                                    "name": "折扣",
+                                    "bg_color": "#ff0000"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}

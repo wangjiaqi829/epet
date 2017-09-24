@@ -1,0 +1,8 @@
+home  是主页
+home-hotitems  是每日疯抢
+foods 是主粮
+health  是医疗保健
+toys  是零食玩具
+daily  是日用外出
+beauty  是美容香波
+tabs  是底部中的分类

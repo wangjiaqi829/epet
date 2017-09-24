@@ -1,0 +1,738 @@
+/* https://mallcdn.api.epet.com/v3/index/main.html?pet_type=dog&version=345&is_single=1&menu_param=140&system=wap&isWeb=1&_=1506147443516 */
+{
+    "msg": "",
+    "code": "succeed",
+    "login_status": 0,
+    "mall_uid": "epet_0",
+    "mall_user": "",
+    "sys_time": 1506147393,
+    "hash": "",
+    "epet_site": "epet",
+    "is_dynamic": 0,
+    "menus": [],
+    "page_title": "狗狗美容香波",
+    "datas": [
+        {
+            "index": "2408",
+            "is_show": 1,
+            "type": "102",
+            "is_dynamic": "0",
+            "type_name": "二级可切换菜单",
+            "data": {
+                "categorys": [
+                    {
+                        "name": "洗澡工具-狗",
+                        "image": "https://img1.epetbar.com/2017-09/04/18/95f9b38e16d6db7ad6216da6151607e0.jpg",
+                        "img_size": "187X136",
+                        "image_choose": "https://img1.epetbar.com/2017-09/04/18/c072b0097463addc88b6443dff3e75b6.jpg",
+                        "image_choose_size": "187X136",
+                        "small_cate": {
+                            "menu_column": 3,
+                            "menus": [
+                                {
+                                    "name": "洗澡刷",
+                                    "image": "https://img1.epetbar.com/2017-09/04/18/8c5ea271f2020f3a5659ae6016c67059.jpg",
+                                    "img_size": "250X193",
+                                    "target": {
+                                        "mode": "goods_list",
+                                        "param": "cateid:4182|extends_str:6803"
+                                    }
+                                },
+                                {
+                                    "name": "吸水毛巾",
+                                    "image": "https://img1.epetbar.com/2017-09/04/18/dc74048e44da00fa1aaa2a234f657066.jpg",
+                                    "img_size": "250X193",
+                                    "target": {
+                                        "mode": "goods_list",
+                                        "param": "cateid:4182|extends_str:6802"
+                                    }
+                                },
+                                {
+                                    "name": "稀释瓶",
+                                    "image": "https://img1.epetbar.com/2017-09/04/18/5e8ef70a50cb612331717b6dcab9d359.jpg",
+                                    "img_size": "250X193",
+                                    "target": {
+                                        "mode": "goods_list",
+                                        "param": "cateid:4182|extends_str:6804"
+                                    }
+                                },
+                                {
+                                    "name": "吹风机",
+                                    "image": "https://img1.epetbar.com/2017-09/04/19/9a7d4084617cf1befae20f1a584f394c.jpg",
+                                    "img_size": "250X193",
+                                    "target": {
+                                        "mode": "goods_list",
+                                        "param": "cateid:4182|extends_str:6805"
+                                    }
+                                },
+                                {
+                                    "name": "吹水机",
+                                    "image": "https://img1.epetbar.com/2017-09/04/19/15e1ca35f0853837f7eb7f64c83ff405.jpg",
+                                    "img_size": "250X193",
+                                    "target": {
+                                        "mode": "goods_list",
+                                        "param": "cateid:4182|extends_str:6828"
+                                    }
+                                },
+                                {
+                                    "name": "其他",
+                                    "image": "https://img1.epetbar.com/2017-09/04/19/f7b8513eac72bee396d31942cb3932d7.jpg",
+                                    "img_size": "250X193",
+                                    "target": {
+                                        "mode": "goods_list",
+                                        "param": "cateid:4182|extends_str:7768"
+                                    }
+                                }
+                            ]
+                        },
+                        "target": []
+                    },
+                    {
+                        "name": "梳剪工具-狗",
+                        "image": "https://img1.epetbar.com/2017-09/04/18/e465fcc34b25a0707f71f5f30f62ecf4.jpg",
+                        "img_size": "187X136",
+                        "image_choose": "https://img1.epetbar.com/2017-09/04/18/c9ed3f405e45793761f7f0fec3d1c68f.jpg",
+                        "image_choose_size": "187X136",
+                        "small_cate": {
+                            "menu_column": 3,
+                            "menus": [
+                                {
+                                    "name": "针梳/排梳",
+                                    "image": "https://img1.epetbar.com/2017-09/04/19/ec22e802b49f10c188e579f5ca18cb84.jpg",
+                                    "img_size": "250X193",
+                                    "target": {
+                                        "mode": "goods_list",
+                                        "param": "cateid:2653|attrid:4197,6394"
+                                    }
+                                },
+                                {
+                                    "name": "开结梳",
+                                    "image": "https://img1.epetbar.com/2017-09/04/19/38be3fe9e1136e064a12efd4e284e37e.jpg",
+                                    "img_size": "250X193",
+                                    "target": {
+                                        "mode": "goods_list",
+                                        "param": "cateid:2653|extends_str:4193"
+                                    }
+                                },
+                                {
+                                    "name": "除蚤梳",
+                                    "image": "https://img1.epetbar.com/2017-09/04/19/0400c839394d2d282f40a10bd1ad9efb.jpg",
+                                    "img_size": "250X193",
+                                    "target": {
+                                        "mode": "goods_list",
+                                        "param": "cateid:2653|extends_str:4187"
+                                    }
+                                },
+                                {
+                                    "name": "褪毛梳/配件",
+                                    "image": "https://img1.epetbar.com/2017-09/04/19/337ab2c87430a48442e4231e093f67dd.jpg",
+                                    "img_size": "250X193",
+                                    "target": {
+                                        "mode": "goods_list",
+                                        "param": "cateid:2653|extends_str:4191"
+                                    }
+                                },
+                                {
+                                    "name": "美容剪",
+                                    "image": "https://img1.epetbar.com/2017-09/04/19/b24f5fee3ebc7e3ef527bc1fc5ffe870.jpg",
+                                    "img_size": "250X193",
+                                    "target": {
+                                        "mode": "goods_list",
+                                        "param": "cateid:2653|attrid:6815,6816,7059"
+                                    }
+                                },
+                                {
+                                    "name": "电推剪/配件",
+                                    "image": "https://img1.epetbar.com/2017-09/04/19/45bab2ff9ba18413cd114702bce8f128.jpg",
+                                    "img_size": "250X193",
+                                    "target": {
+                                        "mode": "goods_list",
+                                        "param": "cateid:2653|extends_str:6814"
+                                    }
+                                }
+                            ]
+                        },
+                        "target": []
+                    },
+                    {
+                        "name": "皮毛护理-狗",
+                        "image": "https://img1.epetbar.com/2017-09/18/15/5ad03860ecd08eac939b680d3dda41b4.jpg",
+                        "img_size": "187X136",
+                        "image_choose": "https://img1.epetbar.com/2017-09/18/15/dad12369b1dd85330c2523a54823caaf.jpg",
+                        "image_choose_size": "187X136",
+                        "small_cate": {
+                            "menu_column": 3,
+                            "menus": [
+                                {
+                                    "name": "杀菌除虫",
+                                    "image": "https://img1.epetbar.com/2017-09/04/19/13e1c3fa11f56e819c3950c6fc9b1e81.jpg",
+                                    "img_size": "250X193",
+                                    "target": {
+                                        "mode": "goods_list",
+                                        "param": "cateid:4149|extends_str:5725"
+                                    }
+                                },
+                                {
+                                    "name": "消炎止痒",
+                                    "image": "https://img1.epetbar.com/2017-09/04/19/2607814e3c18f6b2e08779fe30764da0.jpg",
+                                    "img_size": "250X193",
+                                    "target": {
+                                        "mode": "goods_list",
+                                        "param": "cateid:4149|extends_str:5801"
+                                    }
+                                },
+                                {
+                                    "name": "低敏舒缓",
+                                    "image": "https://img1.epetbar.com/2017-09/04/19/3589b81851c716ffbc93bf614a07ee1d.jpg",
+                                    "img_size": "250X193",
+                                    "target": {
+                                        "mode": "goods_list",
+                                        "param": "cateid:4149|extends_str:5729"
+                                    }
+                                },
+                                {
+                                    "name": "金红护色",
+                                    "image": "https://img1.epetbar.com/2017-09/04/19/680209e3767a6c8c1202515029598d96.jpg",
+                                    "img_size": "250X193",
+                                    "target": {
+                                        "mode": "goods_list",
+                                        "param": "cateid:4147|extends_str:6571"
+                                    }
+                                },
+                                {
+                                    "name": "白毛专用",
+                                    "image": "https://img1.epetbar.com/2017-09/04/19/dbb012cc3e3b1ecceb3e5ec63b2c4952.jpg",
+                                    "img_size": "250X193",
+                                    "target": {
+                                        "mode": "goods_list",
+                                        "param": "cateid:4147|extends_str:6573"
+                                    }
+                                },
+                                {
+                                    "name": "深色专用",
+                                    "image": "https://img1.epetbar.com/2017-09/18/15/98dfb3845d73e15ee42d1d1b6e6bdc55.jpg",
+                                    "img_size": "250X193",
+                                    "target": {
+                                        "mode": "goods_list",
+                                        "param": "cateid:4147|extends_str:6574"
+                                    }
+                                }
+                            ]
+                        },
+                        "target": []
+                    },
+                    {
+                        "name": "日常香波-狗",
+                        "image": "https://img1.epetbar.com/2017-09/04/18/9cac25e15f9cd0e0b8124973042a05ce.jpg",
+                        "img_size": "187X136",
+                        "image_choose": "https://img1.epetbar.com/2017-09/04/18/8393ccc7fa86801c8e1f3d818eae1b16.jpg",
+                        "image_choose_size": "187X136",
+                        "small_cate": {
+                            "menu_column": 3,
+                            "menus": [
+                                {
+                                    "name": "蓬松塑形",
+                                    "image": "https://img1.epetbar.com/2017-09/04/19/1c50a7a739f1a7a06d84d15e7f8a7a2a.jpg",
+                                    "img_size": "250X193",
+                                    "target": {
+                                        "mode": "goods_list",
+                                        "param": "cateid:4151|extends_str:5751"
+                                    }
+                                },
+                                {
+                                    "name": "滋养柔顺",
+                                    "image": "https://img1.epetbar.com/2017-09/04/19/a10ec1c16ffb848fd39e81a285cb67ae.jpg",
+                                    "img_size": "250X193",
+                                    "target": {
+                                        "mode": "goods_list",
+                                        "param": "cateid:4151|extends_str:5753"
+                                    }
+                                },
+                                {
+                                    "name": "除臭添香 ",
+                                    "image": "https://img1.epetbar.com/2017-09/04/19/d51c4b840484f8bbeda1dc30aadac0d6.jpg",
+                                    "img_size": "250X193",
+                                    "target": {
+                                        "mode": "goods_list",
+                                        "param": "cateid:4151|extends_str:5755"
+                                    }
+                                },
+                                {
+                                    "name": "超强去污",
+                                    "image": "https://img1.epetbar.com/2017-09/04/19/11db28b4022b14cdc6138c233af4d1b8.jpg",
+                                    "img_size": "250X193",
+                                    "target": {
+                                        "mode": "goods_list",
+                                        "param": "cateid:4151|extends_str:5757"
+                                    }
+                                },
+                                {
+                                    "name": "免洗干洗",
+                                    "image": "https://img1.epetbar.com/2017-09/04/19/fd69c8010ed0e0a65067d62fa7b1cd99.jpg",
+                                    "img_size": "250X193",
+                                    "target": {
+                                        "mode": "goods_list",
+                                        "param": "cateid:3210"
+                                    }
+                                },
+                                {
+                                    "name": "护毛用品",
+                                    "image": "https://img1.epetbar.com/2017-09/04/19/f048a2af26f8f64faf0cb0e35f549208.jpg",
+                                    "img_size": "250X193",
+                                    "target": {
+                                        "mode": "goods_list",
+                                        "param": "cateid:2787"
+                                    }
+                                }
+                            ]
+                        },
+                        "target": []
+                    }
+                ]
+            }
+        },
+        {
+            "index": "2409",
+            "is_show": 1,
+            "type": "100",
+            "is_dynamic": "0",
+            "type_name": "模块分割线",
+            "value": {
+                "image": "",
+                "img_size": "750x25",
+                "target": {}
+            }
+        },
+        {
+            "index": "2441",
+            "is_show": 1,
+            "type": "21",
+            "is_dynamic": "0",
+            "type_name": "自定义Title模板",
+            "value": {
+                "title_height": "100",
+                "top_line": {
+                    "isline": 0,
+                    "line_color": "",
+                    "padding": "",
+                    "line_image": {}
+                },
+                "bottom_line": {
+                    "isline": 0,
+                    "line_color": "",
+                    "padding": "",
+                    "line_image": {}
+                },
+                "left": {},
+                "center": {
+                    "type": "image",
+                    "text": {},
+                    "img": {
+                        "image": "https://img2.epetbar.com/nowater/2017-09/19/14/7644ec68d9af8c2b3b23e8b4d6ca6d76.jpg",
+                        "img_size": "387x31",
+                        "target": {
+                            "mode": "",
+                            "param": ""
+                        }
+                    }
+                },
+                "right": {}
+            }
+        },
+        {
+            "index": "2411",
+            "is_show": 1,
+            "type": "101",
+            "is_dynamic": "0",
+            "type_name": "单广告+商品列表",
+            "data": {
+                "advAndGoods": [
+                    {
+                        "big_image": {
+                            "image": "https://img2.epetbar.com/nowater/2017-09/19/11/7ca882ed710caf276694acd122974a90.png@!water",
+                            "img_size": "750X330",
+                            "target": {
+                                "mode": "web",
+                                "param": "http://sale.epet.com/m/mould/activity/ztMjQ5MA%3D%3D.html?tid=2490"
+                            }
+                        },
+                        "goods": [
+                            {
+                                "subject": "云禾旗下 宝夫X2犬用吹风机 1800W大功率 ",
+                                "price": "￥108.00",
+                                "small_image": {
+                                    "image": "https://img1.epetbar.com/2017-03/07/16/2c661b5b154c7192c49416cb25289d5d.jpg",
+                                    "img_size": "195X170",
+                                    "target": {
+                                        "mode": "goods_extend",
+                                        "param": {
+                                            "gid": "155655",
+                                            "extend_pam": "buytype:discount|atid:17022"
+                                        }
+                                    }
+                                },
+                                "lable": {
+                                    "name": "折扣",
+                                    "bg_color": "#ff0000"
+                                }
+                            },
+                            {
+                                "subject": "云禾 小飞侠A9 犬用可肩背吹水机 ",
+                                "price": "￥405.00",
+                                "small_image": {
+                                    "image": "https://img1.epetbar.com/2015-08/13/14/b8593665771ae1da970d86d1c75250ec.jpg",
+                                    "img_size": "195X170",
+                                    "target": {
+                                        "mode": "goods_extend",
+                                        "param": {
+                                            "gid": "155658",
+                                            "extend_pam": "buytype:discount|atid:17022"
+                                        }
+                                    }
+                                },
+                                "lable": {
+                                    "name": "折扣",
+                                    "bg_color": "#ff0000"
+                                }
+                            },
+                            {
+                                "subject": "美国原装进口 PerfectCoat 珍珠白毛专用洗毛精 16oz/473ml",
+                                "price": "￥62.00",
+                                "small_image": {
+                                    "image": "https://img1.epetbar.com/2016-11/03/16/1ebcafcff3c7c225463bed2bbaa83a84.jpg",
+                                    "img_size": "195X170",
+                                    "target": {
+                                        "mode": "goods_extend",
+                                        "param": {
+                                            "gid": "132113",
+                                            "extend_pam": "buytype:discount|atid:17022"
+                                        }
+                                    }
+                                },
+                                "lable": {
+                                    "name": "折扣",
+                                    "bg_color": "#ff0000"
+                                }
+                            },
+                            {
+                                "subject": "云禾 2400W强风力犬用吹风机 酷紫色",
+                                "price": "￥198.00",
+                                "small_image": {
+                                    "image": "https://img1.epetbar.com/2015-07/03/5125a3d537d9703247f4de2d92aa4383.jpg",
+                                    "img_size": "195X170",
+                                    "target": {
+                                        "mode": "goods_extend",
+                                        "param": {
+                                            "gid": "155668",
+                                            "extend_pam": "buytype:discount|atid:17022"
+                                        }
+                                    }
+                                },
+                                "lable": {
+                                    "name": "折扣",
+                                    "bg_color": "#ff0000"
+                                }
+                            },
+                            {
+                                "subject": "澳大利亚Dakpets 宠物专用脱毛梳 姜黄色13*5.5cm",
+                                "price": "￥170.00",
+                                "small_image": {
+                                    "image": "https://img1.epetbar.com/2017-05/02/18/9279a01244de2e1c2baef22b0d91a390.jpg",
+                                    "img_size": "195X170",
+                                    "target": {
+                                        "mode": "goods_extend",
+                                        "param": {
+                                            "gid": "195880",
+                                            "extend_pam": "buytype:discount|atid:17022"
+                                        }
+                                    }
+                                },
+                                "lable": {
+                                    "name": "折扣",
+                                    "bg_color": "#ff0000"
+                                }
+                            },
+                            {
+                                "subject": "爱酷ICOOL 犬用美容剪/牙剪 6.5寸 削毛/打薄剪刀 ",
+                                "price": "￥76.50",
+                                "small_image": {
+                                    "image": "https://img1.epetbar.com/2015-04/07/df9893e2701973a22fdc0c43b6f7b9c7.jpg",
+                                    "img_size": "195X170",
+                                    "target": {
+                                        "mode": "goods_extend",
+                                        "param": {
+                                            "gid": "154202",
+                                            "extend_pam": "buytype:discount|atid:17022"
+                                        }
+                                    }
+                                },
+                                "lable": {
+                                    "name": "折扣",
+                                    "bg_color": "#ff0000"
+                                }
+                            }
+                        ],
+                        "more": {
+                            "image": "https://static.epetbar.com/static_wap/appmall/lib/list/more_all.jpg",
+                            "img_size": "220X350",
+                            "target": {
+                                "mode": "web",
+                                "param": "http://sale.epet.com/m/mould/activity/ztMjQ5MA%3D%3D.html?tid=2490"
+                            }
+                        }
+                    },
+                    {
+                        "big_image": {
+                            "image": "https://img2.epetbar.com/nowater/2017-09/22/15/e1161ba654fab8804fca6b7db2b9f0fc.jpg@!water",
+                            "img_size": "750X330",
+                            "target": {
+                                "mode": "web",
+                                "param": "http://sale.epet.com/m/mould/activity/ztMjUzOQ%3D%3D.html?tid=2539"
+                            }
+                        },
+                        "goods": [
+                            {
+                                "subject": "雪貂留香 通用香波 500ml",
+                                "price": "￥39.00",
+                                "small_image": {
+                                    "image": "https://img1.epetbar.com/2016-07/18/10/65ffee284d1a03105649da6852071b36.jpg",
+                                    "img_size": "195X170",
+                                    "target": {
+                                        "mode": "goods_extend",
+                                        "param": {
+                                            "gid": "155862",
+                                            "extend_pam": "buytype:discount|atid:17091"
+                                        }
+                                    }
+                                },
+                                "lable": {
+                                    "name": "折扣",
+                                    "bg_color": "#ff0000"
+                                }
+                            },
+                            {
+                                "subject": "雪貂留香 美白毛专用香波500ml",
+                                "price": "￥47.00",
+                                "small_image": {
+                                    "image": "https://img1.epetbar.com/2016-07/18/10/cbf733fd2615674de3cb24c36ba9f286.jpg",
+                                    "img_size": "195X170",
+                                    "target": {
+                                        "mode": "goods_extend",
+                                        "param": {
+                                            "gid": "155863",
+                                            "extend_pam": "buytype:discount|atid:17091"
+                                        }
+                                    }
+                                },
+                                "lable": {
+                                    "name": "折扣",
+                                    "bg_color": "#ff0000"
+                                }
+                            },
+                            {
+                                "subject": "雪貂留香 红棕毛专用香波500ml",
+                                "price": "￥47.00",
+                                "small_image": {
+                                    "image": "https://img1.epetbar.com/2016-07/18/10/f49f652cc80bc760b7aa916a58dbc55e.jpg",
+                                    "img_size": "195X170",
+                                    "target": {
+                                        "mode": "goods_extend",
+                                        "param": {
+                                            "gid": "155864",
+                                            "extend_pam": "buytype:discount|atid:17091"
+                                        }
+                                    }
+                                },
+                                "lable": {
+                                    "name": "折扣",
+                                    "bg_color": "#ff0000"
+                                }
+                            },
+                            {
+                                "subject": "雪貂留香 去污香波 500ml",
+                                "price": "￥47.00",
+                                "small_image": {
+                                    "image": "https://img1.epetbar.com/2016-07/18/10/65b99ebc9d80633ffe8268cb9af5eb46.jpg",
+                                    "img_size": "195X170",
+                                    "target": {
+                                        "mode": "goods_extend",
+                                        "param": {
+                                            "gid": "155865",
+                                            "extend_pam": "buytype:discount|atid:17091"
+                                        }
+                                    }
+                                },
+                                "lable": {
+                                    "name": "折扣",
+                                    "bg_color": "#ff0000"
+                                }
+                            },
+                            {
+                                "subject": "雪貂留香 滋养防脱香波 500ml",
+                                "price": "￥39.00",
+                                "small_image": {
+                                    "image": "https://img1.epetbar.com/2016-07/18/10/b44f590c6f0ba30b3ccd63c6b3059107.jpg",
+                                    "img_size": "195X170",
+                                    "target": {
+                                        "mode": "goods_extend",
+                                        "param": {
+                                            "gid": "155866",
+                                            "extend_pam": "buytype:discount|atid:17091"
+                                        }
+                                    }
+                                },
+                                "lable": {
+                                    "name": "折扣",
+                                    "bg_color": "#ff0000"
+                                }
+                            },
+                            {
+                                "subject": "雪貂留香 抗菌止痒香波 500ml",
+                                "price": "￥39.00",
+                                "small_image": {
+                                    "image": "https://img1.epetbar.com/2016-07/18/10/b0358fd24a3b7ad99dbb499df9ecd29d.jpg",
+                                    "img_size": "195X170",
+                                    "target": {
+                                        "mode": "goods_extend",
+                                        "param": {
+                                            "gid": "155867",
+                                            "extend_pam": "buytype:discount|atid:17091"
+                                        }
+                                    }
+                                },
+                                "lable": {
+                                    "name": "折扣",
+                                    "bg_color": "#ff0000"
+                                }
+                            }
+                        ],
+                        "more": {
+                            "image": "https://static.epetbar.com/static_wap/appmall/lib/list/more_all.jpg",
+                            "img_size": "220X350",
+                            "target": {
+                                "mode": "web",
+                                "param": "http://sale.epet.com/m/mould/activity/ztMjUzOQ%3D%3D.html?tid=2539"
+                            }
+                        }
+                    },
+                    {
+                        "big_image": {
+                            "image": "https://img2.epetbar.com/nowater/2017-09/22/15/8b6496958f23e690587f331985fa7bb4.jpg@!water",
+                            "img_size": "750X330",
+                            "target": {
+                                "mode": "web",
+                                "param": "https://sale.epet.com/m/mould/activity/sMjUyOA%3D%3D.html?tid=2528"
+                            }
+                        },
+                        "goods": [
+                            {
+                                "subject": "澳路雪 经典系列香波1#赛级增白去黄500ml",
+                                "price": "￥28.00",
+                                "small_image": {
+                                    "image": "https://img1.epetbar.com/2015-08/18/14/177b5bead132a45b0a595b1019028eca.jpg",
+                                    "img_size": "195X170",
+                                    "target": {
+                                        "mode": "web",
+                                        "param": "https://sale.epet.com/m/mould/activity/sMjUyOA%3D%3D.html?tid=2528&gid=104177"
+                                    }
+                                },
+                                "lable": {
+                                    "name": "买赠",
+                                    "bg_color": "#ff0000"
+                                }
+                            },
+                            {
+                                "subject": "澳路雪 宠物用香波2#深层营养滋润500ml",
+                                "price": "￥28.00",
+                                "small_image": {
+                                    "image": "https://img1.epetbar.com/2015-08/18/14/06439f0c79c49f60dee999ba360c5746.jpg",
+                                    "img_size": "195X170",
+                                    "target": {
+                                        "mode": "web",
+                                        "param": "https://sale.epet.com/m/mould/activity/sMjUyOA%3D%3D.html?tid=2528&gid=104178"
+                                    }
+                                },
+                                "lable": {
+                                    "name": "买赠",
+                                    "bg_color": "#ff0000"
+                                }
+                            },
+                            {
+                                "subject": "澳路雪 经典系列香波3#柔顺长毛发500ml",
+                                "price": "￥28.00",
+                                "small_image": {
+                                    "image": "https://img1.epetbar.com/2015-08/18/14/037a04d9a5c560febc531342f9d553b9.jpg",
+                                    "img_size": "195X170",
+                                    "target": {
+                                        "mode": "web",
+                                        "param": "https://sale.epet.com/m/mould/activity/sMjUyOA%3D%3D.html?tid=2528&gid=104179"
+                                    }
+                                },
+                                "lable": {
+                                    "name": "买赠",
+                                    "bg_color": "#ff0000"
+                                }
+                            },
+                            {
+                                "subject": "澳路雪 经典系列香波4#塑型蓬松闪亮500ml ",
+                                "price": "￥28.00",
+                                "small_image": {
+                                    "image": "https://img1.epetbar.com/2015-08/18/14/07de9df2de37475b755e41d2cf42e692.jpg",
+                                    "img_size": "195X170",
+                                    "target": {
+                                        "mode": "web",
+                                        "param": "https://sale.epet.com/m/mould/activity/sMjUyOA%3D%3D.html?tid=2528&gid=104181"
+                                    }
+                                },
+                                "lable": {
+                                    "name": "买赠",
+                                    "bg_color": "#ff0000"
+                                }
+                            },
+                            {
+                                "subject": "澳路雪 经典系列香波5#短硬直毛专用500ml ",
+                                "price": "￥28.00",
+                                "small_image": {
+                                    "image": "https://img1.epetbar.com/2015-08/20/14/22a7efdca01d572afe6b6fd22b113b29.jpg",
+                                    "img_size": "195X170",
+                                    "target": {
+                                        "mode": "web",
+                                        "param": "https://sale.epet.com/m/mould/activity/sMjUyOA%3D%3D.html?tid=2528&gid=104183"
+                                    }
+                                },
+                                "lable": {
+                                    "name": "买赠",
+                                    "bg_color": "#ff0000"
+                                }
+                            },
+                            {
+                                "subject": "澳路雪 经典系列香波6#活力金色毛发500ml ",
+                                "price": "￥28.00",
+                                "small_image": {
+                                    "image": "https://img1.epetbar.com/2015-08/20/14/be5205bf466f72f203629fb3cdf7a102.jpg",
+                                    "img_size": "195X170",
+                                    "target": {
+                                        "mode": "web",
+                                        "param": "https://sale.epet.com/m/mould/activity/sMjUyOA%3D%3D.html?tid=2528&gid=104185"
+                                    }
+                                },
+                                "lable": {
+                                    "name": "买赠",
+                                    "bg_color": "#ff0000"
+                                }
+                            }
+                        ],
+                        "more": {
+                            "image": "https://static.epetbar.com/static_wap/appmall/lib/list/more_all.jpg",
+                            "img_size": "220X350",
+                            "target": {
+                                "mode": "web",
+                                "param": "https://sale.epet.com/m/mould/activity/sMjUyOA%3D%3D.html?tid=2528"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

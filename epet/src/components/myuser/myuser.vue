@@ -61,9 +61,46 @@
     </div>
 
 
+    <!--忘记密码-->
+    <div class="ftc">
+      <a href="javascript:;">忘记密码?</a>
+    </div>
 
-    <div>忘记密码</div>
+    <!--登录-->
+    <div class="loginbtn">
+      <a href="javascript:;" class="btn-login afff">登录</a>
+    </div>
+
+    <!--去下载-->
+    <div class="c666">
+      APP专享:E宠团5折包邮,首单满99送99
+      <a href="javascript:;">去下载</a>
+    </div>
   </div>
+
+  <!--空div填充空白-->
+    <div class="empty" style="width: 100%; height: 80px"></div>
+  <!--div合作网站-->
+
+  <div style="text-align: center ;opacity: 0.2;height: 50px" >
+    <b>合作网站第三方登录</b>
+  </div>
+
+  <div>
+    <ul class="ulList">
+      <li style="float: left;margin-left: 80px;margin-right: 20px">
+        <a href="javascript:;">
+        <img src="//static.epetbar.com/mpet/images/login/login_ico4.png" alt="">
+        </a>
+      </li>
+      <li>
+        <a href="javascript:;">
+          <img src="//static.epetbar.com/mpet/images/login/login_ico2.png" alt="">
+        </a>
+      </li>
+    </ul>
+  </div>
+  <!---->
 
 </div>
 </template>
@@ -185,5 +222,42 @@
             width: 17px;
             height: 20px;
             margin: 0px 0 0 -25px;
+
+    .ftc
+      text-align right
+      padding-left 2em
+      padding-right 2em
+      color #b4c1ba
+      font-size 14px
+    .loginbtn
+      width 90%
+      height 40px
+      background-color: #2ec975
+      border-radius 3px
+      margin 15px auto
+      text-align center
+      line-height 40px
+      border-radius 50px
+      a
+        color white
+
+    .c666
+      color #666
+      font-size 12px
+      text-align center
+    .ulList
+      height 100%
+      display inline-block
+      li
+        width: 33.3%;
+        padding: 0 1.2em;
+        float: left;
+        display: inline;
+        img
+          width: 60%;
+          height: auto;
+          display: block;
+          margin: auto;
+          max-width: 176px;
 
 </style>

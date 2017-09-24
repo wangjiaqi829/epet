@@ -1,0 +1,780 @@
+/* https://mallcdn.api.epet.com/v3/index/main.html?pet_type=dog&version=345&is_single=1&menu_param=125&system=wap&isWeb=1&_=1506147199525 */
+{
+    "msg": "",
+    "code": "succeed",
+    "login_status": 0,
+    "mall_uid": "epet_0",
+    "mall_user": "",
+    "sys_time": 1506147137,
+    "hash": "",
+    "epet_site": "epet",
+    "is_dynamic": 0,
+    "menus": [],
+    "page_title": "狗狗医疗保健",
+    "datas": [
+        {
+            "index": "2236",
+            "is_show": 1,
+            "type": "1",
+            "is_dynamic": "0",
+            "type_name": "图片轮播广告",
+            "value": [
+                {
+                    "advid": "23453",
+                    "atid": "17018",
+                    "image": "https://img2.epetbar.com/nowater/2017-09/17/22/e8b35e5a5d8a8b6d7f190cf93d92b6a0.png@!water",
+                    "img_size": "750x320",
+                    "target": {
+                        "mode": "web",
+                        "param": "http://sale.epet.com/m/mould/activity/ztMjQ4Ng%3D%3D.html?tid=2486"
+                    }
+                }
+            ]
+        },
+        {
+            "index": "2237",
+            "is_show": 1,
+            "type": "102",
+            "is_dynamic": "0",
+            "type_name": "二级可切换菜单",
+            "data": {
+                "categorys": [
+                    {
+                        "name": "驱虫-狗",
+                        "image": "https://img1.epetbar.com/2017-08/10/10/ae6f576fea67f9cb95b9722a7f1c84d3.jpg",
+                        "img_size": "187X136",
+                        "image_choose": "https://img1.epetbar.com/2017-08/10/10/a989abf7539cba044851318ab4be56be.jpg",
+                        "image_choose_size": "187X136",
+                        "small_cate": {
+                            "menu_column": 3,
+                            "menus": [
+                                {
+                                    "name": "肠道寄生虫",
+                                    "image": "https://img1.epetbar.com/2017-08/03/14/ce5df7df2d978a8d891b5888e338c096.jpg",
+                                    "img_size": "250X193",
+                                    "target": {
+                                        "mode": "goods_list",
+                                        "param": "cateid:521|extends_str:4071"
+                                    }
+                                },
+                                {
+                                    "name": "特殊寄生虫",
+                                    "image": "https://img1.epetbar.com/2017-08/03/14/a215ce5148d36f5df1096c6175ad4d74.jpg",
+                                    "img_size": "250X193",
+                                    "target": {
+                                        "mode": "goods_list",
+                                        "param": "attrid:4075,4073"
+                                    }
+                                },
+                                {
+                                    "name": "宠物体外",
+                                    "image": "https://img1.epetbar.com/2017-08/03/14/32f548891d46fc0ce7c45285670fcb97.jpg",
+                                    "img_size": "250X193",
+                                    "target": {
+                                        "mode": "goods_list",
+                                        "param": "cateid:522|extends_str:7329"
+                                    }
+                                },
+                                {
+                                    "name": "环境驱虫",
+                                    "image": "https://img1.epetbar.com/2017-08/03/14/fc31c114ae1b994aab3775f207759095.jpg",
+                                    "img_size": "250X193",
+                                    "target": {
+                                        "mode": "goods_list",
+                                        "param": "cateid:522|extends_str:7330"
+                                    }
+                                },
+                                {
+                                    "name": "内外通用",
+                                    "image": "https://img1.epetbar.com/2017-08/03/14/eb69538c90cf5ebc2c1867984a5d4a70.jpg",
+                                    "img_size": "250X193",
+                                    "target": {
+                                        "mode": "goods_list",
+                                        "param": "cateid:522|extends_str:8069"
+                                    }
+                                },
+                                {
+                                    "name": "其他-驱虫",
+                                    "image": "https://img1.epetbar.com/2017-08/03/14/37359244597cf0770428bb665d059eba.jpg",
+                                    "img_size": "250X193",
+                                    "target": {
+                                        "mode": "goods_list",
+                                        "param": "attrid:4071,4073,4075,8069,7329,7330"
+                                    }
+                                }
+                            ]
+                        },
+                        "target": []
+                    },
+                    {
+                        "name": "皮肤病-狗",
+                        "image": "https://img1.epetbar.com/2017-08/10/10/cb1bb7838e96db46b752f2fa2e38dd28.jpg",
+                        "img_size": "187X136",
+                        "image_choose": "https://img1.epetbar.com/2017-08/10/10/7b95ecc16b79c754fac45937ce6c9f1a.jpg",
+                        "image_choose_size": "187X136",
+                        "small_cate": {
+                            "menu_column": 3,
+                            "menus": [
+                                {
+                                    "name": "真菌-狗",
+                                    "image": "https://img1.epetbar.com/2017-08/03/14/02f5c9728729a7230e0879b6097efcfc.jpg",
+                                    "img_size": "250X193",
+                                    "target": {
+                                        "mode": "goods_list",
+                                        "param": "cateid:523|extends_str:4101"
+                                    }
+                                },
+                                {
+                                    "name": "螨虫-狗",
+                                    "image": "https://img1.epetbar.com/2017-08/03/14/6003d1f38aa8853c49e4e0a49df29ee4.jpg",
+                                    "img_size": "250X193",
+                                    "target": {
+                                        "mode": "goods_list",
+                                        "param": "cateid:523|extends_str:4099"
+                                    }
+                                },
+                                {
+                                    "name": "细菌-狗",
+                                    "image": "https://img1.epetbar.com/2017-08/03/14/922ac89c97b250ed4d8c65c261e4318b.jpg",
+                                    "img_size": "250X193",
+                                    "target": {
+                                        "mode": "goods_list",
+                                        "param": "cateid:523|extends_str:7513"
+                                    }
+                                },
+                                {
+                                    "name": "综合防治-狗",
+                                    "image": "https://img1.epetbar.com/2017-08/03/14/06b28aa698cc6a430587eb2a01cd8061.jpg",
+                                    "img_size": "250X193",
+                                    "target": {
+                                        "mode": "goods_list",
+                                        "param": "cateid:523|extends_str:4103"
+                                    }
+                                },
+                                {
+                                    "name": "皮肤修复",
+                                    "image": "https://img1.epetbar.com/2017-08/03/14/57bb35d96db2c4071404c88eeb7de208.jpg",
+                                    "img_size": "250X193",
+                                    "target": {
+                                        "mode": "goods_list",
+                                        "param": "cateid:523|extends_str:7512"
+                                    }
+                                },
+                                {
+                                    "name": "其他-皮肤病",
+                                    "image": "https://img1.epetbar.com/2017-08/03/14/c44e70bf78b40cf84c1a1be54d2197a8.jpg",
+                                    "img_size": "250X193",
+                                    "target": {
+                                        "mode": "goods_list",
+                                        "param": "cateid:523|attrid:7513,7512,4103,4101,4099"
+                                    }
+                                }
+                            ]
+                        },
+                        "target": []
+                    },
+                    {
+                        "name": "常见疾病-狗",
+                        "image": "https://img1.epetbar.com/2017-08/10/10/81ab1f639c99c1f5bbda88dbc01d9e19.jpg",
+                        "img_size": "187X136",
+                        "image_choose": "https://img1.epetbar.com/2017-08/10/10/9e39ba2a342f219a7c9f6e2bd4b0bf94.jpg",
+                        "image_choose_size": "187X136",
+                        "small_cate": {
+                            "menu_column": 3,
+                            "menus": [
+                                {
+                                    "name": "异食癖",
+                                    "image": "https://img1.epetbar.com/2017-08/03/14/838e4aeeda2a61dc3e54e02f8f7018a8.jpg",
+                                    "img_size": "250X193",
+                                    "target": {
+                                        "mode": "goods_list",
+                                        "param": "cateid:416|extends_str:4061"
+                                    }
+                                },
+                                {
+                                    "name": "肠胃不适",
+                                    "image": "https://img1.epetbar.com/2017-08/03/14/46d8cd73306558bb7928b367f5bfebd1.jpg",
+                                    "img_size": "250X193",
+                                    "target": {
+                                        "mode": "goods_list",
+                                        "param": "attrid:5565,5567,7518"
+                                    }
+                                },
+                                {
+                                    "name": "感冒咳嗽",
+                                    "image": "https://img1.epetbar.com/2017-08/03/14/ba5f84ec6ef16c343ddb790f322a6c27.jpg",
+                                    "img_size": "250X193",
+                                    "target": {
+                                        "mode": "goods_list",
+                                        "param": "cateid:527|extends_str:4169"
+                                    }
+                                },
+                                {
+                                    "name": "骨骼关节",
+                                    "image": "https://img1.epetbar.com/2017-08/03/14/e30c43aa3b8aaa96769f856436003848.jpg",
+                                    "img_size": "250X193",
+                                    "target": {
+                                        "mode": "goods_list",
+                                        "param": "cateid:4230|attrid:7378,7379,7380,7381,7382"
+                                    }
+                                },
+                                {
+                                    "name": "外伤护理",
+                                    "image": "https://img1.epetbar.com/2017-08/03/14/b49e3a5b1a2b01653d1fd54093246ec5.jpg",
+                                    "img_size": "250X193",
+                                    "target": {
+                                        "mode": "goods_list",
+                                        "param": "cateid:527|extends_str:4149"
+                                    }
+                                },
+                                {
+                                    "name": "其他-常见疾病",
+                                    "image": "https://img1.epetbar.com/2017-08/03/14/c52a30a35154046b750bfe67706bb50f.jpg",
+                                    "img_size": "250X193",
+                                    "target": {
+                                        "mode": "goods_list",
+                                        "param": "cateid:527|attrid:4147,7103,7517,4139"
+                                    }
+                                }
+                            ]
+                        },
+                        "target": []
+                    },
+                    {
+                        "name": "全面护理-狗",
+                        "image": "https://img1.epetbar.com/2017-08/10/10/5e09f838e5ffdc9e06f69958b975ac5d.jpg",
+                        "img_size": "187X136",
+                        "image_choose": "https://img1.epetbar.com/2017-08/10/10/9e6636406dbf0fc26adbc0265a475f44.png",
+                        "image_choose_size": "187X136",
+                        "small_cate": {
+                            "menu_column": 3,
+                            "menus": [
+                                {
+                                    "name": "耳部",
+                                    "image": "https://img1.epetbar.com/2017-08/03/14/695940d4759a6c3c28042feb4ba0a402.jpg",
+                                    "img_size": "250X193",
+                                    "target": {
+                                        "mode": "goods_list",
+                                        "param": "cateid:524|extends_str:4125"
+                                    }
+                                },
+                                {
+                                    "name": "眼部",
+                                    "image": "https://img1.epetbar.com/2017-08/03/14/c2ce7348642f3701a375cc377374c45c.jpg",
+                                    "img_size": "250X193",
+                                    "target": {
+                                        "mode": "goods_list",
+                                        "param": "cateid:524|extends_str:4129"
+                                    }
+                                },
+                                {
+                                    "name": "口部",
+                                    "image": "https://img1.epetbar.com/2017-08/03/14/b07170444f2e268feee5a452403ea33f.jpg",
+                                    "img_size": "250X193",
+                                    "target": {
+                                        "mode": "goods_list",
+                                        "param": "cateid:524|extends_str:4121"
+                                    }
+                                },
+                                {
+                                    "name": "足部",
+                                    "image": "https://img1.epetbar.com/2017-08/03/14/412a4619e0754065d4671a30caa57425.jpg",
+                                    "img_size": "250X193",
+                                    "target": {
+                                        "mode": "goods_list",
+                                        "param": "cateid:524|extends_str:7331"
+                                    }
+                                },
+                                {
+                                    "name": "医疗小用品",
+                                    "image": "https://img1.epetbar.com/2017-08/03/14/ff1afe47a9fc23721218b4f6a8a57677.jpg",
+                                    "img_size": "250X193",
+                                    "target": {
+                                        "mode": "goods_list",
+                                        "param": "cateid:527|extends_str:4153"
+                                    }
+                                },
+                                {
+                                    "name": "其他-全面护理",
+                                    "image": "https://img1.epetbar.com/2017-08/03/14/5ed19b8980ba1b781d2ceabbcbf9b943.jpg",
+                                    "img_size": "250X193",
+                                    "target": {
+                                        "mode": "goods_list",
+                                        "param": "cateid:527|extends_str:4161"
+                                    }
+                                }
+                            ]
+                        },
+                        "target": []
+                    }
+                ]
+            }
+        },
+        {
+            "index": "2238",
+            "is_show": 1,
+            "type": "100",
+            "is_dynamic": "0",
+            "type_name": "模块分割线",
+            "value": {
+                "image": "",
+                "img_size": "750x25",
+                "target": {}
+            }
+        },
+        {
+            "index": "2239",
+            "is_show": 1,
+            "type": "13",
+            "is_dynamic": "0",
+            "type_name": "通用广告模板",
+            "left_image": {
+                "image": "",
+                "img_size": "",
+                "target": {}
+            },
+            "center_image": {
+                "image": "",
+                "img_size": "",
+                "target": {}
+            },
+            "right_image": {
+                "image": "",
+                "img_size": "",
+                "target": {}
+            },
+            "show_line": "0",
+            "content_images": [
+                [
+                    {
+                        "advid": "22934",
+                        "atid": "0",
+                        "image": "https://img2.epetbar.com/nowater/2017-08/04/14/d720be7dab61d13745d644d26a0feaef.jpg@!water",
+                        "img_size": "375x422",
+                        "target": {
+                            "mode": "web",
+                            "param": "https://wap.epet.com/petschool/SchoolDetail.html?aid=47&version=345"
+                        }
+                    }
+                ],
+                [
+                    {
+                        "advid": "22938",
+                        "atid": "0",
+                        "image": "https://img2.epetbar.com/nowater/2017-08/04/14/5914108edeadbfba0118b6c2ec9a26c1.jpg@!water",
+                        "img_size": "375x211",
+                        "target": {
+                            "mode": "web",
+                            "param": "https://wap.epet.com/petschool/SchoolDetail.html?aid=106&version=345"
+                        }
+                    },
+                    {
+                        "advid": "22940",
+                        "atid": "0",
+                        "image": "https://img2.epetbar.com/nowater/2017-08/04/14/b405fedf3e8d3dd537928f8b997a628b.jpg@!water",
+                        "img_size": "375x211",
+                        "target": {
+                            "mode": "web",
+                            "param": "https://wap.epet.com/petschool/SchoolDetail.html?aid=56&version=345"
+                        }
+                    }
+                ]
+            ]
+        },
+        {
+            "index": "2240",
+            "is_show": 1,
+            "type": "100",
+            "is_dynamic": "0",
+            "type_name": "模块分割线",
+            "value": {
+                "image": "",
+                "img_size": "750x25",
+                "target": {}
+            }
+        },
+        {
+            "index": "2241",
+            "is_show": 1,
+            "type": "21",
+            "is_dynamic": "0",
+            "type_name": "自定义Title模板",
+            "value": {
+                "title_height": "100",
+                "top_line": {
+                    "isline": 0,
+                    "line_color": "",
+                    "padding": "",
+                    "line_image": {}
+                },
+                "bottom_line": {
+                    "isline": 0,
+                    "line_color": "",
+                    "padding": "",
+                    "line_image": {}
+                },
+                "left": {},
+                "center": {
+                    "type": "image",
+                    "text": {},
+                    "img": {
+                        "image": "https://img2.epetbar.com/nowater/2017-08/16/21/d70dfd168cc7b150120af978ae59d715.jpg",
+                        "img_size": "387x31",
+                        "target": {
+                            "mode": "",
+                            "param": ""
+                        }
+                    }
+                },
+                "right": {}
+            }
+        },
+        {
+            "index": "2242",
+            "is_show": 1,
+            "type": "101",
+            "is_dynamic": "0",
+            "type_name": "单广告+商品列表",
+            "data": {
+                "advAndGoods": [
+                    {
+                        "big_image": {
+                            "image": "https://img2.epetbar.com/nowater/2017-09/18/17/28427e4c44d0ca292d78bcf5482b8c3b.png@!water",
+                            "img_size": "750X330",
+                            "target": {
+                                "mode": "web",
+                                "param": "http://sale.epet.com/m/mould/activity/ztMjQ5NQ%3D%3D.html?tid=2495"
+                            }
+                        },
+                        "goods": [
+                            {
+                                "subject": " 美国麦德氏 IN-Basic 宠物高单位活化益生菌  5g*1袋 ",
+                                "price": "￥1.00",
+                                "small_image": {
+                                    "image": "https://img1.epetbar.com/2016-07/22/10/086dc216590b2647f4f3f578decdc527.jpg",
+                                    "img_size": "195X170",
+                                    "target": {
+                                        "mode": "goods_extend",
+                                        "param": {
+                                            "gid": "172196",
+                                            "extend_pam": "buytype:discount|atid:17027"
+                                        }
+                                    }
+                                },
+                                "lable": {
+                                    "name": "折扣",
+                                    "bg_color": "#ff0000"
+                                }
+                            },
+                            {
+                                "subject": "美国品牌麦德氏 IN-Basic高单位活化益生菌 5g*5袋",
+                                "price": "￥28.00",
+                                "small_image": {
+                                    "image": "https://img1.epetbar.com/2016-07/16/10/e0158e35600b7564450cae892bea55e3.jpg",
+                                    "img_size": "195X170",
+                                    "target": {
+                                        "mode": "goods_extend",
+                                        "param": {
+                                            "gid": "170126",
+                                            "extend_pam": "buytype:discount|atid:17027"
+                                        }
+                                    }
+                                },
+                                "lable": {
+                                    "name": "折扣",
+                                    "bg_color": "#ff0000"
+                                }
+                            },
+                            {
+                                "subject": "美国麦德氏  IN-BASIC 日常基础调理系列 犬用消食片（综合消化酶+益生菌）150片",
+                                "price": "￥28.00",
+                                "small_image": {
+                                    "image": "https://img1.epetbar.com/2016-03/24/10/52be53029e9fc9da44634384c2b9f5bd.jpg",
+                                    "img_size": "195X170",
+                                    "target": {
+                                        "mode": "goods_extend",
+                                        "param": {
+                                            "gid": "160043",
+                                            "extend_pam": "buytype:discount|atid:17027"
+                                        }
+                                    }
+                                },
+                                "lable": {
+                                    "name": "折扣",
+                                    "bg_color": "#ff0000"
+                                }
+                            },
+                            {
+                                "subject": "美国麦德氏  IN-BASIC 日常基础调理系列 犬用螯合微量元素片 150片 ",
+                                "price": "￥28.00",
+                                "small_image": {
+                                    "image": "https://img1.epetbar.com/2016-03/29/10/13de4000a85749a04fb7330fbe7acd5b.jpg",
+                                    "img_size": "195X170",
+                                    "target": {
+                                        "mode": "goods_extend",
+                                        "param": {
+                                            "gid": "143919",
+                                            "extend_pam": "buytype:discount|atid:17027"
+                                        }
+                                    }
+                                },
+                                "lable": {
+                                    "name": "折扣",
+                                    "bg_color": "#ff0000"
+                                }
+                            },
+                            {
+                                "subject": "美国麦德氏  IN-BASIC日常基础调理系列  犬用羊乳钙片 150片",
+                                "price": "￥28.00",
+                                "small_image": {
+                                    "image": "https://img1.epetbar.com/2016-03/29/10/2e7235c64b76b9dcc16fd981f37bb6e4.jpg",
+                                    "img_size": "195X170",
+                                    "target": {
+                                        "mode": "goods_extend",
+                                        "param": {
+                                            "gid": "106302",
+                                            "extend_pam": "buytype:discount|atid:17027"
+                                        }
+                                    }
+                                },
+                                "lable": {
+                                    "name": "折扣",
+                                    "bg_color": "#ff0000"
+                                }
+                            },
+                            {
+                                "subject": "美国麦德氏  IN-BASIC 日常基础调理系列  犬用复合维生素片 150片",
+                                "price": "￥28.00",
+                                "small_image": {
+                                    "image": "https://img1.epetbar.com/2015-10/29/16/b06cc964ebe8c34a9fb524a0fcf66274.jpg",
+                                    "img_size": "195X170",
+                                    "target": {
+                                        "mode": "goods_extend",
+                                        "param": {
+                                            "gid": "119196",
+                                            "extend_pam": "buytype:discount|atid:17027"
+                                        }
+                                    }
+                                },
+                                "lable": {
+                                    "name": "折扣",
+                                    "bg_color": "#ff0000"
+                                }
+                            }
+                        ],
+                        "more": {
+                            "image": "https://static.epetbar.com/static_wap/appmall/lib/list/more_all.jpg",
+                            "img_size": "220X350",
+                            "target": {
+                                "mode": "web",
+                                "param": "http://sale.epet.com/m/mould/activity/ztMjQ5NQ%3D%3D.html?tid=2495"
+                            }
+                        }
+                    },
+                    {
+                        "big_image": {
+                            "image": "https://img2.epetbar.com/nowater/2017-09/22/13/4eb8479e56476ea250571cc8e32c6c91.jpg@!water",
+                            "img_size": "750X330",
+                            "target": {
+                                "mode": "web",
+                                "param": "https://sale.epet.com/m/mould/activity/ztMjAxNw%3D%3D.html?tid=2017"
+                            }
+                        },
+                        "goods": [
+                            {
+                                "subject": "卫仕 犬用营养膏 120g ",
+                                "price": "￥48.00",
+                                "small_image": {
+                                    "image": "https://img1.epetbar.com/2016-01/08/10/e5181a68d43ebc5959bcb52aa680279d.jpg",
+                                    "img_size": "195X170",
+                                    "target": {
+                                        "mode": "goods_extend",
+                                        "param": {
+                                            "gid": "156015",
+                                            "extend_pam": "buytype:discount|atid:17071"
+                                        }
+                                    }
+                                },
+                                "lable": {
+                                    "name": "折扣",
+                                    "bg_color": "#ff0000"
+                                }
+                            },
+                            {
+                                "subject": "卫仕 U系列犬用力肠片 160片",
+                                "price": "￥48.00",
+                                "small_image": {
+                                    "image": "https://img1.epetbar.com/2016-01/08/10/f61c0f616c3ec28ec8d2e5120da1ce0e.jpg",
+                                    "img_size": "195X170",
+                                    "target": {
+                                        "mode": "goods_extend",
+                                        "param": {
+                                            "gid": "159101",
+                                            "extend_pam": "buytype:discount|atid:17071"
+                                        }
+                                    }
+                                },
+                                "lable": {
+                                    "name": "折扣",
+                                    "bg_color": "#ff0000"
+                                }
+                            },
+                            {
+                                "subject": "卫仕 U系列犬用消食片 160片",
+                                "price": "￥28.80",
+                                "small_image": {
+                                    "image": "https://img1.epetbar.com/2016-01/08/14/1c40c374bff9cf10ff865fc9fc6b76cf.jpg",
+                                    "img_size": "195X170",
+                                    "target": {
+                                        "mode": "goods_extend",
+                                        "param": {
+                                            "gid": "112698",
+                                            "extend_pam": "buytype:discount|atid:17071"
+                                        }
+                                    }
+                                },
+                                "lable": {
+                                    "name": "折扣",
+                                    "bg_color": "#ff0000"
+                                }
+                            },
+                            {
+                                "subject": "卫仕 U系列犬用关节舒 160片",
+                                "price": "￥28.80",
+                                "small_image": {
+                                    "image": "https://img1.epetbar.com/2016-01/08/14/6142493ec7d03b1d64f9eed96ed872fe.jpg",
+                                    "img_size": "195X170",
+                                    "target": {
+                                        "mode": "goods_extend",
+                                        "param": {
+                                            "gid": "112699",
+                                            "extend_pam": "buytype:discount|atid:17071"
+                                        }
+                                    }
+                                },
+                                "lable": {
+                                    "name": "折扣",
+                                    "bg_color": "#ff0000"
+                                }
+                            },
+                            {
+                                "subject": "卫仕 U系列螯合微量元素片160片",
+                                "price": "￥28.80",
+                                "small_image": {
+                                    "image": "https://img1.epetbar.com/2016-01/08/14/6356a281e7ae7fe5c38c316d3d6b57b4.jpg",
+                                    "img_size": "195X170",
+                                    "target": {
+                                        "mode": "goods_extend",
+                                        "param": {
+                                            "gid": "103358",
+                                            "extend_pam": "buytype:discount|atid:17071"
+                                        }
+                                    }
+                                },
+                                "lable": {
+                                    "name": "折扣",
+                                    "bg_color": "#ff0000"
+                                }
+                            },
+                            {
+                                "subject": "卫仕 U系列 犬用乳钙片 160片",
+                                "price": "￥28.80",
+                                "small_image": {
+                                    "image": "https://img1.epetbar.com/2016-01/08/14/7ec39ddc405634a16e67989b653e84d7.jpg",
+                                    "img_size": "195X170",
+                                    "target": {
+                                        "mode": "goods_extend",
+                                        "param": {
+                                            "gid": "103363",
+                                            "extend_pam": "buytype:discount|atid:17071"
+                                        }
+                                    }
+                                },
+                                "lable": {
+                                    "name": "折扣",
+                                    "bg_color": "#ff0000"
+                                }
+                            }
+                        ],
+                        "more": {
+                            "image": "https://static.epetbar.com/static_wap/appmall/lib/list/more_all.jpg",
+                            "img_size": "220X350",
+                            "target": {
+                                "mode": "web",
+                                "param": "https://sale.epet.com/m/mould/activity/ztMjAxNw%3D%3D.html?tid=2017"
+                            }
+                        }
+                    },
+                    {
+                        "big_image": {
+                            "image": "https://img2.epetbar.com/nowater/2017-09/18/17/b54ed2f275ac408ab56fe15606f24d80.png@!water",
+                            "img_size": "750X330",
+                            "target": {
+                                "mode": "web",
+                                "param": "http://sale.epet.com/m/mould/activity/sMjQ5NA%3D%3D.html?tid=2494"
+                            }
+                        },
+                        "goods": [
+                            {
+                                "subject": "犬心保 驱虫牛肉块 S 体重11kg以下 单片",
+                                "price": "￥28.00",
+                                "small_image": {
+                                    "image": "https://img1.epetbar.com/2017-09/02/15/b4927370712f46461053881d424c384a.jpg",
+                                    "img_size": "195X170",
+                                    "target": {
+                                        "mode": "web",
+                                        "param": "http://sale.epet.com/m/mould/activity/sMjQ5NA%3D%3D.html?tid=2494&gid=115591"
+                                    }
+                                },
+                                "lable": {
+                                    "name": "买赠",
+                                    "bg_color": "#ff0000"
+                                }
+                            },
+                            {
+                                "subject": "犬心保 驱虫牛肉块 M 体重12-22kg 单片装",
+                                "price": "￥33.00",
+                                "small_image": {
+                                    "image": "https://img1.epetbar.com/2016-01/05/14/8f6a73d968c02b257c67327176e957b7.jpg",
+                                    "img_size": "195X170",
+                                    "target": {
+                                        "mode": "web",
+                                        "param": "http://sale.epet.com/m/mould/activity/sMjQ5NA%3D%3D.html?tid=2494&gid=115592"
+                                    }
+                                },
+                                "lable": {
+                                    "name": "买赠",
+                                    "bg_color": "#ff0000"
+                                }
+                            },
+                            {
+                                "subject": "犬心保 驱虫牛肉块 L 体重23-45kg 单片装",
+                                "price": "￥40.00",
+                                "small_image": {
+                                    "image": "https://img1.epetbar.com/2016-01/05/14/d10fa675119349ac255e49e354bc1b2e.jpg",
+                                    "img_size": "195X170",
+                                    "target": {
+                                        "mode": "web",
+                                        "param": "http://sale.epet.com/m/mould/activity/sMjQ5NA%3D%3D.html?tid=2494&gid=115593"
+                                    }
+                                },
+                                "lable": {
+                                    "name": "买赠",
+                                    "bg_color": "#ff0000"
+                                }
+                            }
+                        ],
+                        "more": {
+                            "image": "https://static.epetbar.com/static_wap/appmall/lib/list/more_all.jpg",
+                            "img_size": "220X350",
+                            "target": {
+                                "mode": "web",
+                                "param": "http://sale.epet.com/m/mould/activity/sMjQ5NA%3D%3D.html?tid=2494"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

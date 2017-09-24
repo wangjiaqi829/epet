@@ -99,7 +99,6 @@
   .wrapper
     width 100%
     .header-wrapper
-      /*height 50px*/
       width 100%
       background-color: #fff;
       .fix

@@ -1,0 +1,727 @@
+/* https://mallcdn.api.epet.com/v3/index/main.html?pet_type=dog&version=345&is_single=1&menu_param=131&system=wap&isWeb=1&_=1506147286406 */
+{
+    "msg": "",
+    "code": "succeed",
+    "login_status": 0,
+    "mall_uid": "epet_0",
+    "mall_user": "",
+    "sys_time": 1506147226,
+    "hash": "",
+    "epet_site": "epet",
+    "is_dynamic": 0,
+    "menus": [],
+    "page_title": "狗狗零食玩具",
+    "datas": [
+        {
+            "index": "2394",
+            "is_show": 1,
+            "type": "1",
+            "is_dynamic": "0",
+            "type_name": "图片轮播广告",
+            "value": [
+                {
+                    "advid": "23392",
+                    "atid": "0",
+                    "image": "https://img2.epetbar.com/nowater/2017-09/15/08/3d82338df309756421fcc4679f371050.jpg@!water",
+                    "img_size": "750x320",
+                    "target": {
+                        "mode": "web",
+                        "param": "http://sale.epet.com/m/mould/activity/dMjQ2Ng%3D%3D.html?tid=2466"
+                    }
+                },
+                {
+                    "advid": "23394",
+                    "atid": "0",
+                    "image": "https://img2.epetbar.com/nowater/2017-09/15/08/c842418c2f025c375f32be53839e9dd7.jpg@!water",
+                    "img_size": "750x320",
+                    "target": {
+                        "mode": "web",
+                        "param": "http://sale.epet.com/m/mould/activity/dMjQ2Nw%3D%3D.html?tid=2467"
+                    }
+                },
+                {
+                    "advid": "23422",
+                    "atid": "0",
+                    "image": "https://img2.epetbar.com/nowater/2017-09/15/08/37409b7f248f9b1c1b61fd77ce846e6a.jpg@!water",
+                    "img_size": "750x320",
+                    "target": {
+                        "mode": "web",
+                        "param": "http://sale.epet.com/m/mould/activity/ztMjQ3Mg%3D%3D.html?tid=2472"
+                    }
+                }
+            ]
+        },
+        {
+            "index": "2395",
+            "is_show": 1,
+            "type": "102",
+            "is_dynamic": "0",
+            "type_name": "二级可切换菜单",
+            "data": {
+                "categorys": [
+                    {
+                        "name": "肉质零食",
+                        "image": "https://img1.epetbar.com/2017-08/31/09/3ddeae131c66d1e9d02be2f5450fb7a6.jpg",
+                        "img_size": "187X136",
+                        "image_choose": "https://img1.epetbar.com/2017-08/31/09/c67461295c342aa9e30c3e1bbe1b07e5.jpg",
+                        "image_choose_size": "187X136",
+                        "small_cate": {
+                            "menu_column": 3,
+                            "menus": [
+                                {
+                                    "name": "鸡肉",
+                                    "image": "https://img1.epetbar.com/2017-09/13/15/d194e15abbcc57cb5d926a606b2adee8.jpg",
+                                    "img_size": "250X193",
+                                    "target": {
+                                        "mode": "goods_list",
+                                        "param": "cateid:132|extends_str:3701"
+                                    }
+                                },
+                                {
+                                    "name": "牛肉",
+                                    "image": "https://img1.epetbar.com/2017-09/13/15/13ddf8228fb7c3e2cb76b7fa5a302ab5.jpg",
+                                    "img_size": "250X193",
+                                    "target": {
+                                        "mode": "goods_list",
+                                        "param": "cateid:132|extends_str:3699"
+                                    }
+                                },
+                                {
+                                    "name": "鱼肉",
+                                    "image": "https://img1.epetbar.com/2017-09/13/15/98f92ca30f29e24a1168c9d24998544c.jpg",
+                                    "img_size": "250X193",
+                                    "target": {
+                                        "mode": "goods_list",
+                                        "param": "attrid:3693,3695,8033"
+                                    }
+                                },
+                                {
+                                    "name": "鸭肉",
+                                    "image": "https://img1.epetbar.com/2017-09/13/15/70c20a272336884401f90781f5f93f21.jpg",
+                                    "img_size": "250X193",
+                                    "target": {
+                                        "mode": "goods_list",
+                                        "param": "cateid:132|extends_str:3691"
+                                    }
+                                },
+                                {
+                                    "name": "火腿肠",
+                                    "image": "https://img1.epetbar.com/2017-09/13/15/740883924fe30cd19ab39e4df8ac7e82.jpg",
+                                    "img_size": "250X193",
+                                    "target": {
+                                        "mode": "goods_list",
+                                        "param": "cateid:132|extends_str:3705"
+                                    }
+                                },
+                                {
+                                    "name": "其它",
+                                    "image": "https://img1.epetbar.com/2017-09/13/15/bece10723aa43fd5a8fedd9216b95487.jpg",
+                                    "img_size": "250X193",
+                                    "target": {
+                                        "mode": "goods_list",
+                                        "param": "attrid:3703,3697,3687"
+                                    }
+                                }
+                            ]
+                        },
+                        "target": []
+                    },
+                    {
+                        "name": "磨牙洁齿",
+                        "image": "https://img1.epetbar.com/2017-08/31/09/11925baaf6652097eea5a9f6b996c21a.jpg",
+                        "img_size": "187X136",
+                        "image_choose": "https://img1.epetbar.com/2017-08/31/09/64fa517cacede8407ecbbbef778bf1c1.jpg",
+                        "image_choose_size": "187X136",
+                        "small_cate": {
+                            "menu_column": 3,
+                            "menus": [
+                                {
+                                    "name": "洁齿类",
+                                    "image": "https://img1.epetbar.com/2017-09/13/15/b5a47fbb4bd448d6e72e680551341da4.jpg",
+                                    "img_size": "250X193",
+                                    "target": {
+                                        "mode": "goods_list",
+                                        "param": "cateid:10|extends_str:3677"
+                                    }
+                                },
+                                {
+                                    "name": "真骨类",
+                                    "image": "https://img1.epetbar.com/2017-09/19/10/8b56a3aadb664d62949a23dcae756152.jpg",
+                                    "img_size": "250X193",
+                                    "target": {
+                                        "mode": "goods_list",
+                                        "param": "cateid:10|extends_str:3679"
+                                    }
+                                },
+                                {
+                                    "name": "饼干类",
+                                    "image": "https://img1.epetbar.com/2017-09/19/10/6c05c175e8aac73009557a6c72f73157.jpg",
+                                    "img_size": "250X193",
+                                    "target": {
+                                        "mode": "goods_list",
+                                        "param": "cateid:4306"
+                                    }
+                                },
+                                {
+                                    "name": "咬胶类",
+                                    "image": "https://img1.epetbar.com/2017-09/13/15/c6ec859701f623d2701c2c180a19b291.jpg",
+                                    "img_size": "250X193",
+                                    "target": {
+                                        "mode": "goods_list",
+                                        "param": "cateid:10|extends_str:3675"
+                                    }
+                                },
+                                {
+                                    "name": "白图",
+                                    "image": "https://img1.epetbar.com/2017-09/19/10/dc970781618c81cf18697576e5a4990a.jpg",
+                                    "img_size": "250X193",
+                                    "target": {
+                                        "mode": "test",
+                                        "param": ""
+                                    }
+                                },
+                                {
+                                    "name": "白图",
+                                    "image": "https://img1.epetbar.com/2017-09/19/10/23cd21ecb5b29851587a8ce5c924a2c3.jpg",
+                                    "img_size": "250X193",
+                                    "target": {
+                                        "mode": "test",
+                                        "param": ""
+                                    }
+                                }
+                            ]
+                        },
+                        "target": []
+                    },
+                    {
+                        "name": "罐头/点心",
+                        "image": "https://img1.epetbar.com/2017-08/31/09/cbeb0b8c34a3458cd2a70335ea9a25bb.jpg",
+                        "img_size": "187X136",
+                        "image_choose": "https://img1.epetbar.com/2017-08/31/09/6d7cc714bf86ec21b340cd53eb531cf5.jpg",
+                        "image_choose_size": "187X136",
+                        "small_cate": {
+                            "menu_column": 3,
+                            "menus": [
+                                {
+                                    "name": "罐头",
+                                    "image": "https://img1.epetbar.com/2017-09/13/15/6ed33fbc8aab39a532a4d62808685644.jpg",
+                                    "img_size": "250X193",
+                                    "target": {
+                                        "mode": "goods_list",
+                                        "param": "cateid:135|extends_str:3763"
+                                    }
+                                },
+                                {
+                                    "name": "餐盒",
+                                    "image": "https://img1.epetbar.com/2017-09/13/15/871a5e0e10eff0f4068b723a3d68ffec.jpg",
+                                    "img_size": "250X193",
+                                    "target": {
+                                        "mode": "goods_list",
+                                        "param": "cateid:135|extends_str:3765"
+                                    }
+                                },
+                                {
+                                    "name": "妙鲜包",
+                                    "image": "https://img1.epetbar.com/2017-09/13/15/2a8fb1e1f20773852ea85a4d2f919b89.jpg",
+                                    "img_size": "250X193",
+                                    "target": {
+                                        "mode": "goods_list",
+                                        "param": "cateid:135|extends_str:3767"
+                                    }
+                                },
+                                {
+                                    "name": "布丁",
+                                    "image": "https://img1.epetbar.com/2017-09/13/15/93a11841adb75679d2495399dd069787.jpg",
+                                    "img_size": "250X193",
+                                    "target": {
+                                        "mode": "goods_list",
+                                        "param": "cateid:133|extends_str:7400"
+                                    }
+                                },
+                                {
+                                    "name": "奶酪小食",
+                                    "image": "https://img1.epetbar.com/2017-09/13/15/47d523c73518af44a46121af322c48c2.jpg",
+                                    "img_size": "250X193",
+                                    "target": {
+                                        "mode": "goods_list",
+                                        "param": "cateid:133|extends_str:7401"
+                                    }
+                                },
+                                {
+                                    "name": "饮料/冰淇淋",
+                                    "image": "https://img1.epetbar.com/2017-09/13/15/33ba17fe73c9b034bcda641450f46cb6.jpg",
+                                    "img_size": "250X193",
+                                    "target": {
+                                        "mode": "goods_list",
+                                        "param": "attrid:8040,8045"
+                                    }
+                                }
+                            ]
+                        },
+                        "target": []
+                    },
+                    {
+                        "name": "玩具",
+                        "image": "https://img1.epetbar.com/2017-08/31/09/f0d09b22a156c6c2c44d39c9596c30b3.jpg",
+                        "img_size": "187X136",
+                        "image_choose": "https://img1.epetbar.com/2017-08/31/09/b163875bcefa76c455740f4a0940c88c.jpg",
+                        "image_choose_size": "187X136",
+                        "small_cate": {
+                            "menu_column": 3,
+                            "menus": [
+                                {
+                                    "name": "棉质玩具",
+                                    "image": "https://img1.epetbar.com/2017-09/13/15/37fbd2e1716712cdfb6a2c54b162219b.jpg",
+                                    "img_size": "250X193",
+                                    "target": {
+                                        "mode": "goods_list",
+                                        "param": "cateid:210"
+                                    }
+                                },
+                                {
+                                    "name": "橡胶玩具",
+                                    "image": "https://img1.epetbar.com/2017-09/13/15/eddfa3376ed5ce6818fd6a2cb68f6437.jpg",
+                                    "img_size": "250X193",
+                                    "target": {
+                                        "mode": "goods_list",
+                                        "param": "cateid:211"
+                                    }
+                                },
+                                {
+                                    "name": "塑料玩具",
+                                    "image": "https://img1.epetbar.com/2017-09/13/15/887ef1c7ef4139d789647b9039ece35e.jpg",
+                                    "img_size": "250X193",
+                                    "target": {
+                                        "mode": "goods_list",
+                                        "param": "cateid:212"
+                                    }
+                                },
+                                {
+                                    "name": "发声玩具",
+                                    "image": "https://img1.epetbar.com/2017-09/13/15/f2894e7ee664cc99e7d07f97c504d850.jpg",
+                                    "img_size": "250X193",
+                                    "target": {
+                                        "mode": "goods_list",
+                                        "param": "attrid:3923,3945,3969"
+                                    }
+                                },
+                                {
+                                    "name": "漏食玩具",
+                                    "image": "https://img1.epetbar.com/2017-09/13/15/3a79a1b2f9bc13c9dc9088403089fde4.jpg",
+                                    "img_size": "250X193",
+                                    "target": {
+                                        "mode": "goods_list",
+                                        "param": "attrid:3919,3941,6932"
+                                    }
+                                },
+                                {
+                                    "name": "其它",
+                                    "image": "https://img1.epetbar.com/2017-09/13/15/3798d161779c94253cc48b9545a09273.jpg",
+                                    "img_size": "250X193",
+                                    "target": {
+                                        "mode": "goods_list",
+                                        "param": "attrid:5435,5433,5443,5439,6407,6408"
+                                    }
+                                }
+                            ]
+                        },
+                        "target": []
+                    }
+                ]
+            }
+        },
+        {
+            "index": "2396",
+            "is_show": 1,
+            "type": "100",
+            "is_dynamic": "0",
+            "type_name": "模块分割线",
+            "value": {
+                "image": "",
+                "img_size": "750x25",
+                "target": {}
+            }
+        },
+        {
+            "index": "2397",
+            "is_show": 1,
+            "type": "21",
+            "is_dynamic": "0",
+            "type_name": "自定义Title模板",
+            "value": {
+                "title_height": "100",
+                "top_line": {
+                    "isline": 0,
+                    "line_color": "",
+                    "padding": "",
+                    "line_image": {}
+                },
+                "bottom_line": {
+                    "isline": 0,
+                    "line_color": "",
+                    "padding": "",
+                    "line_image": {}
+                },
+                "left": {},
+                "center": {
+                    "type": "image",
+                    "text": {},
+                    "img": {
+                        "image": "https://img2.epetbar.com/nowater/2017-09/13/18/edb7f86b24e8c29f123e5a4c094ddf81.jpg",
+                        "img_size": "387x31",
+                        "target": {
+                            "mode": "",
+                            "param": ""
+                        }
+                    }
+                },
+                "right": {}
+            }
+        },
+        {
+            "index": "2398",
+            "is_show": 1,
+            "type": "101",
+            "is_dynamic": "0",
+            "type_name": "单广告+商品列表",
+            "data": {
+                "advAndGoods": [
+                    {
+                        "big_image": {
+                            "image": "https://img2.epetbar.com/nowater/2017-09/22/18/5a48cc1478c47e1c28888b6870077ea7.jpg@!water",
+                            "img_size": "750X330",
+                            "target": {
+                                "mode": "web",
+                                "param": "http://sale.epet.com/m/mould/activity/ztMjU0Mw%3D%3D.html?tid=2543"
+                            }
+                        },
+                        "goods": [
+                            {
+                                "subject": "红脚丫 磨牙洁齿系列橡胶洁齿圆环 长7.6cm",
+                                "price": "￥15.90",
+                                "small_image": {
+                                    "image": "https://img1.epetbar.com/2016-01/25/16/4a401a990a93201f65171b2363ff73a5.jpg",
+                                    "img_size": "195X170",
+                                    "target": {
+                                        "mode": "goods_extend",
+                                        "param": {
+                                            "gid": "141965",
+                                            "extend_pam": "buytype:discount|atid:17097"
+                                        }
+                                    }
+                                },
+                                "lable": {
+                                    "name": "折扣",
+                                    "bg_color": "#ff0000"
+                                }
+                            },
+                            {
+                                "subject": "红脚丫 发声系列橡胶骨纹发声球 直径6cm 小号",
+                                "price": "￥21.90",
+                                "small_image": {
+                                    "image": "https://img1.epetbar.com/2016-01/25/16/76a904d616fbe51dd72f2d19b773a7ae.jpg",
+                                    "img_size": "195X170",
+                                    "target": {
+                                        "mode": "goods_extend",
+                                        "param": {
+                                            "gid": "142021",
+                                            "extend_pam": "buytype:discount|atid:17097"
+                                        }
+                                    }
+                                },
+                                "lable": {
+                                    "name": "折扣",
+                                    "bg_color": "#ff0000"
+                                }
+                            },
+                            {
+                                "subject": "红脚丫 磨牙洁齿系列幼犬磨牙奶嘴 长9.5cm",
+                                "price": "￥22.50",
+                                "small_image": {
+                                    "image": "https://img1.epetbar.com/2016-01/25/14/478852568b39535b198953649097d06f.jpg",
+                                    "img_size": "195X170",
+                                    "target": {
+                                        "mode": "goods_extend",
+                                        "param": {
+                                            "gid": "141963",
+                                            "extend_pam": "buytype:discount|atid:17097"
+                                        }
+                                    }
+                                },
+                                "lable": {
+                                    "name": "折扣",
+                                    "bg_color": "#ff0000"
+                                }
+                            },
+                            {
+                                "subject": "红脚丫 磨牙洁齿系列洁齿棒 小型犬8.9cm  小号",
+                                "price": "￥28.90",
+                                "small_image": {
+                                    "image": "https://img1.epetbar.com/2016-01/25/16/940c768e39deb769e338f610351a1ffd.jpg",
+                                    "img_size": "195X170",
+                                    "target": {
+                                        "mode": "goods_extend",
+                                        "param": {
+                                            "gid": "141987",
+                                            "extend_pam": "buytype:discount|atid:17097"
+                                        }
+                                    }
+                                },
+                                "lable": {
+                                    "name": "折扣",
+                                    "bg_color": "#ff0000"
+                                }
+                            },
+                            {
+                                "subject": "红脚丫 磨牙洁齿系列哑铃洁牙棒 中小型犬11.4cm 小号",
+                                "price": "￥37.00",
+                                "small_image": {
+                                    "image": "https://img1.epetbar.com/2015-02/15/0b64b601cbbdca83e81b1f19d907fd47.jpg",
+                                    "img_size": "195X170",
+                                    "target": {
+                                        "mode": "goods_extend",
+                                        "param": {
+                                            "gid": "141975",
+                                            "extend_pam": "buytype:discount|atid:17097"
+                                        }
+                                    }
+                                },
+                                "lable": {
+                                    "name": "折扣",
+                                    "bg_color": "#ff0000"
+                                }
+                            },
+                            {
+                                "subject": "红脚丫 磨牙洁齿系列洁牙钉圈骨头 中大型犬15.3cm  大号",
+                                "price": "￥54.00",
+                                "small_image": {
+                                    "image": "https://img1.epetbar.com/2015-02/15/a8822959187584d52d2b27ba95e462a5.jpg",
+                                    "img_size": "195X170",
+                                    "target": {
+                                        "mode": "goods_extend",
+                                        "param": {
+                                            "gid": "141973",
+                                            "extend_pam": "buytype:discount|atid:17097"
+                                        }
+                                    }
+                                },
+                                "lable": {
+                                    "name": "折扣",
+                                    "bg_color": "#ff0000"
+                                }
+                            }
+                        ],
+                        "more": {
+                            "image": "https://static.epetbar.com/static_wap/appmall/lib/list/more_all.jpg",
+                            "img_size": "220X350",
+                            "target": {
+                                "mode": "web",
+                                "param": "http://sale.epet.com/m/mould/activity/ztMjU0Mw%3D%3D.html?tid=2543"
+                            }
+                        }
+                    },
+                    {
+                        "big_image": {
+                            "image": "https://img2.epetbar.com/nowater/2017-09/19/10/af8823bf3e23687c7412513ca7974bf9.jpg@!water",
+                            "img_size": "750X330",
+                            "target": {
+                                "mode": "web",
+                                "param": "http://sale.epet.com/m/mould/activity/pMjUwNA%3D%3D.html?tid=2504"
+                            }
+                        },
+                        "goods": [
+                            {
+                                "subject": "禾仕嘉 洁牙健齿系列 双效洁牙营养棒2in1 90g",
+                                "price": "￥7.90",
+                                "small_image": {
+                                    "image": "https://img1.epetbar.com/2016-02/29/10/dcf6a51f1edb12b93b6acfff829c5fda.png",
+                                    "img_size": "195X170",
+                                    "target": {
+                                        "mode": "web",
+                                        "param": "http://sale.epet.com/m/mould/activity/pMjUwNA%3D%3D.html?tid=2504&gid=109588"
+                                    }
+                                },
+                                "lable": {
+                                    "name": "礼包",
+                                    "bg_color": "#ff0000"
+                                }
+                            },
+                            {
+                                "subject": "禾仕嘉 洁牙健齿系列 双效洁牙营养骨 90g",
+                                "price": "￥8.60",
+                                "small_image": {
+                                    "image": "https://img1.epetbar.com/2016-02/29/10/3c7de5b56531ab8cdb6f85bed6fc37a5.png",
+                                    "img_size": "195X170",
+                                    "target": {
+                                        "mode": "web",
+                                        "param": "http://sale.epet.com/m/mould/activity/pMjUwNA%3D%3D.html?tid=2504&gid=109592"
+                                    }
+                                },
+                                "lable": {
+                                    "name": "礼包",
+                                    "bg_color": "#ff0000"
+                                }
+                            },
+                            {
+                                "subject": "Smartbones  花生味夹肉洁齿骨 迷你2.5寸/支",
+                                "price": "￥2.80",
+                                "small_image": {
+                                    "image": "https://img1.epetbar.com/2015-08/03/713b20589f1b746aa744c475db626548.jpg",
+                                    "img_size": "195X170",
+                                    "target": {
+                                        "mode": "web",
+                                        "param": "http://sale.epet.com/m/mould/activity/pMjUwNA%3D%3D.html?tid=2504&gid=151090"
+                                    }
+                                },
+                                "lable": {
+                                    "name": "礼包",
+                                    "bg_color": "#ff0000"
+                                }
+                            },
+                            {
+                                "subject": "Smartbones  迷你鸡肉味夹肉洁齿骨  单支/16g",
+                                "price": "￥2.80",
+                                "small_image": {
+                                    "image": "https://img1.epetbar.com/2015-08/04/f2af408cc9de2299c687dd474cece1e0.jpg",
+                                    "img_size": "195X170",
+                                    "target": {
+                                        "mode": "web",
+                                        "param": "http://sale.epet.com/m/mould/activity/pMjUwNA%3D%3D.html?tid=2504&gid=151091"
+                                    }
+                                },
+                                "lable": {
+                                    "name": "礼包",
+                                    "bg_color": "#ff0000"
+                                }
+                            },
+                            {
+                                "subject": "Smartbones 小号鸡肉味夹肉洁齿骨 单支/52g",
+                                "price": "￥8.00",
+                                "small_image": {
+                                    "image": "https://img1.epetbar.com/2015-08/04/9bff91aa13f6abbae492bd3879f627bd.jpg",
+                                    "img_size": "195X170",
+                                    "target": {
+                                        "mode": "web",
+                                        "param": "http://sale.epet.com/m/mould/activity/pMjUwNA%3D%3D.html?tid=2504&gid=127837"
+                                    }
+                                },
+                                "lable": {
+                                    "name": "礼包",
+                                    "bg_color": "#ff0000"
+                                }
+                            },
+                            {
+                                "subject": "Smartbones 花生味夹肉洁齿骨 小号5寸/支",
+                                "price": "￥8.00",
+                                "small_image": {
+                                    "image": "https://img1.epetbar.com/2015-08/03/2f686a167c4cfbb24e83a4917d4cc41f.jpg",
+                                    "img_size": "195X170",
+                                    "target": {
+                                        "mode": "web",
+                                        "param": "http://sale.epet.com/m/mould/activity/pMjUwNA%3D%3D.html?tid=2504&gid=127843"
+                                    }
+                                },
+                                "lable": {
+                                    "name": "礼包",
+                                    "bg_color": "#ff0000"
+                                }
+                            }
+                        ],
+                        "more": {
+                            "image": "https://static.epetbar.com/static_wap/appmall/lib/list/more_all.jpg",
+                            "img_size": "220X350",
+                            "target": {
+                                "mode": "web",
+                                "param": "http://sale.epet.com/m/mould/activity/pMjUwNA%3D%3D.html?tid=2504"
+                            }
+                        }
+                    },
+                    {
+                        "big_image": {
+                            "image": "https://img2.epetbar.com/nowater/2017-09/13/18/74b95aebe2e9abad51ec0ba17cada1e7.jpg@!water",
+                            "img_size": "750X330",
+                            "target": {
+                                "mode": "web",
+                                "param": "http://sale.epet.com/m/mould/activity/sMjQxMg%3D%3D.html?tid=2412"
+                            }
+                        },
+                        "goods": [
+                            {
+                                "subject": "美国原装进口 梅里亚 牙口乐犬用口腔清洁棒 XS 14支/盒 161g",
+                                "price": "￥68.00",
+                                "small_image": {
+                                    "image": "https://img1.epetbar.com/2017-06/02/8/9155667a8e9c550797b299d1d32c759c.jpg",
+                                    "img_size": "195X170",
+                                    "target": {
+                                        "mode": "web",
+                                        "param": "http://sale.epet.com/m/mould/activity/sMjQxMg%3D%3D.html?tid=2412&gid=175935"
+                                    }
+                                },
+                                "lable": {
+                                    "name": "买赠",
+                                    "bg_color": "#ff0000"
+                                }
+                            },
+                            {
+                                "subject": "美国原装进口 梅里亚 牙口乐犬用口腔清洁棒 S 14支/盒 280g",
+                                "price": "￥88.00",
+                                "small_image": {
+                                    "image": "https://img1.epetbar.com/2017-06/02/8/372d6350419a3c67a57a1be250e24a78.jpg",
+                                    "img_size": "195X170",
+                                    "target": {
+                                        "mode": "web",
+                                        "param": "http://sale.epet.com/m/mould/activity/sMjQxMg%3D%3D.html?tid=2412&gid=175936"
+                                    }
+                                },
+                                "lable": {
+                                    "name": "买赠",
+                                    "bg_color": "#ff0000"
+                                }
+                            },
+                            {
+                                "subject": "美国原装进口 梅里亚 牙口乐犬用口腔清洁棒 M 14支/盒 441g",
+                                "price": "￥128.00",
+                                "small_image": {
+                                    "image": "https://img1.epetbar.com/2017-06/02/8/e3afe9cf5d6b7cfc0b048c229e7778fe.jpg",
+                                    "img_size": "195X170",
+                                    "target": {
+                                        "mode": "web",
+                                        "param": "http://sale.epet.com/m/mould/activity/sMjQxMg%3D%3D.html?tid=2412&gid=175938"
+                                    }
+                                },
+                                "lable": {
+                                    "name": "买赠",
+                                    "bg_color": "#ff0000"
+                                }
+                            },
+                            {
+                                "subject": "美国原装进口 梅里亚 牙口乐犬用口腔清洁棒 L 14支/盒 721g",
+                                "price": "￥158.00",
+                                "small_image": {
+                                    "image": "https://img1.epetbar.com/2017-06/02/8/27720a5ff2a77dd1ecf556ec2ebfd005.jpg",
+                                    "img_size": "195X170",
+                                    "target": {
+                                        "mode": "web",
+                                        "param": "http://sale.epet.com/m/mould/activity/sMjQxMg%3D%3D.html?tid=2412&gid=175939"
+                                    }
+                                },
+                                "lable": {
+                                    "name": "买赠",
+                                    "bg_color": "#ff0000"
+                                }
+                            }
+                        ],
+                        "more": {
+                            "image": "https://static.epetbar.com/static_wap/appmall/lib/list/more_all.jpg",
+                            "img_size": "220X350",
+                            "target": {
+                                "mode": "web",
+                                "param": "http://sale.epet.com/m/mould/activity/sMjQxMg%3D%3D.html?tid=2412"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
