@@ -222,6 +222,7 @@
           <!--热门栏目-->
         </div>
 
+        <spilt></spilt>
         <div class="divboximg flex">
 
         </div>
@@ -246,7 +247,7 @@
 
     mounted(){
       this.$nextTick(()=>{
-       new BScroll(this.$refs.TJList,{
+       new BScroll(this.$refs.TJImgwarp,{
           click:true,
           scrollX:true
         })
@@ -336,24 +337,27 @@
         .swiper-slide
           position relative
           height 80px
-          width 100%
+          width 30%
           img
+            display block
+            float left
             position absolute
             top:0
             right:0
             height: 64px
-            width: 84px
+            width: 100%
         .cred
           color red
-          font-size 12px
+          font-size 14px
           margin-top 72px
           text-align center
           /*height 20px*/
           height 100%
           width 100%
-          margin-left 10px
+          margin-left 2px
         p
-          font-size 10px
+          font-size 12px
           color: #999
+          margin-left 20px
 
 </style>
