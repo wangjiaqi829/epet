@@ -6,10 +6,19 @@ import router from './router'
 
 
 //使用mint-ui
-
-import { Swipe, SwipeItem } from 'mint-ui';
-Vue.component(Swipe.name, Swipe);
+//轮播图+
+import { Swipe, SwipeItem,} from 'mint-ui';
+Vue.component(Swipe.name, Swipe,);
 Vue.component(SwipeItem.name, SwipeItem);
+
+/*// tab显示卡
+import { TabContainer, TabContainerItem } from 'mint-ui';
+Vue.component(TabContainer.name, TabContainer);
+Vue.component(TabContainerItem.name, TabContainerItem);
+
+import { Navbar, TabItem } from 'mint-ui';
+Vue.component(Navbar.name, Navbar);
+Vue.component(TabItem.name, TabItem);*/
 
 
 import VueScroller from 'vue-scroller'

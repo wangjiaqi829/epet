@@ -16,6 +16,7 @@ import four from '../components/four/four.vue'
 import five from '../components/five/five.vue'
 import six from '../components/six/six.vue'
 
+import register from '../components/register/register.vue'
 
 
 Vue.use(Router)
@@ -72,6 +73,11 @@ export default new Router({
     {
       path: '/',
       redirect: '/home',
+
     },
+    {
+      path:'/register',
+      component:register
+    }
   ]
 })

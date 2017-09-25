@@ -1,13 +1,20 @@
 <template>
 <div>
+
   <header>
   <div class="logo_bg"style="background: url(//img1.epetbar.com/2017-09/21/11/2ac7b0a4f0ab1e4a63819e0668d1cb39.png) no-repeat;  background-size: 100% 100%">
     <!--<  注册 与背景图片-->
     <div class="head-top">
       <a href="http://localhost:8080/#/home/one" class="aback page-top"><</a>
-      <div class="zfont">
+
+      <!--<div class="zfont">
       <a href="Javascript:;" class="afff">注册</a>
+      </div>-->
+
+      <div class="zfont">
+        <router-link to="/register">注册</router-link>
       </div>
+
     </div>
 
     <!--巨宠图片-->
@@ -106,11 +113,12 @@
 </template>
 
 <script>
+  import register from '../register/register.vue'
 
   export default {
     data(){
       return{
-        isShow: true
+        isShow: true,
       }
     },
 
@@ -128,6 +136,9 @@
           this.isShow = !this.isShow
         }
       }
+    },
+    components:{
+      register
     }
   }
 </script>
@@ -145,6 +156,7 @@
         position absolute
         top:0
         right 1em
+        color #fff
         .afff
           color #fff
           font-size 18px
