@@ -25,16 +25,16 @@ var app = express()
 //mock data start
 
 //加载json数据
-var apiData = require('../src/mock/tabs.json')
-var classifi =apiData.brand
+var apiData = require('../src/mock/data.json')
+var  home=apiData.dog
 //得到注册路由
 var apiRouter = express.Router()
 
 //注册路由
-apiRouter.get('/classifi', function (req, res) {
+apiRouter.get('/home', function (req, res) {
   res.json({
     code: 0,   //0代表正确数据
-    data: classifi
+    data: home
   })
 })
 
