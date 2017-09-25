@@ -12,7 +12,7 @@
       </div>-->
 
       <div class="zfont">
-        <router-link to="/register">注册</router-link>
+        <router-link to="/register" style="color: white">注册</router-link>
       </div>
 
     </div>
