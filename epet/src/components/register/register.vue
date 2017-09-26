@@ -4,21 +4,25 @@
         <ul class="mform ml" >
           <li>
             <span class="mNumIco"></span>
-            <input type="text" placeholder="请输入手机号码" id="inputText"  @input="eventChange">
+            <input type="text" placeholder="请输入手机号码" id="inputText"  @input="eventChange" v-model="Invalue">
           </li>
         </ul>
 
         <div class="Detail page" v-show="!isShow">
           <form action="">
             <ul class="mform ml">
-
-              <li>
-                <span class="mNumIco" id="he_button"></span>
-                <input type="text" placeholder="图片验证码">
-              </li>
               <li>
                 <span class="mNumIco"></span>
-                <input type="text" placeholder="验证码" id="my_button">
+                <input type="text" id="code_input" value="" placeholder="请输入验证码" v-model="inputText"/>
+                <div id="v_container"></div>
+              </li>
+
+              <li>
+                <span class="mNumIco"></span>
+                <input type="text"  placeholder="验证码" id="my_button" >
+                <button class="acquiring" @click="YanZheng">
+                  <a href="javascript:;" style="color: white">获取短信验证码</a>
+                </button>
               </li>
               <li>
                 <span class="mNumIco"></span>
@@ -35,60 +39,94 @@
             </ul>
 
             <div class="mt20" >
-             <button class="btn-login">下一步2</button>
+             <button class="btn-login" @click="TheRegist">点击注册</button>
             </div>
-
 
           </form>
         </div>
 
-
         <div class="mt20" @click="eventButton" v-show="isShow" >
-          <button class="btn-login " :class='[TagColor]'>下一步</button>
+          <button class="btn-login " :class='[TagColor]' >下一步</button>
         </div>
     </form>
   </div>
-</template>e
+</template>
 
 <script>
-//  var inputval =document.getElementById("inputText").value;
-var inputval;
-var Regx;
+  import GVerify from './gVerify'
+
+//var inputval;
+//var Regx;
   export default {
     data(){
-      return{
-        isShow:true,
-        inputval:'',
-        innerHTML:'',
-        TagColor:'btn-login'
+      return {
+        Invalue: '',
+        isShow: true,
+        inputval: '',
+        innerHTML: '',
+        TagColor: 'btn-login',
+        inputText: ''
       }
     },
+    mounted(){
+      this.$nextTick(()=>{
+        this._found()
+      })
+    },
+
     methods:{
 
       eventChange(){
-        var inputval =document.getElementById("inputText").value;
-        if(inputval){
-          this.TagColor='Tag'
-        }else {
-          this.TagColor='btn-login'
+        // var inputval =document.getElementById("inputText").value;
+
+        if (this.Invalue) {
+          //console.log(this.Invalue)
+          this.TagColor = 'Tag'
+        } else {
+          this.TagColor = 'btn-login'
+        }
+      },
+
+      eventButton(){
+
+        var inputval = document.getElementById("inputText").value;
+        var Regx = /^1(3|4|5|7|8)\d{9}$/
+        if (Regx.test(inputval)) {
+          //console.log('111')
+          this.isShow = !this.isShow
+        } else {
+          alert('号码不对')
         }
       },
 
 
-      eventButton(){
+      _found(){
+        this.verifyCode = new GVerify({
+        id:'v_container',
+        num:4
+        })
 
+      },
 
-        var inputval =document.getElementById("inputText").value;
-        var Regx =/^[1-9]\d*$|^[1-9]\d*\.\d{1,2}$|^0\.\d{1,2}$/
+      TheRegist(){},
 
-        if(Regx.test(inputval)){
-            this.isShow=!this.isShow
+      YanZheng(){
+        if (this.verifyCode.validate(this.inputText)){
+          console.log(this.inputText)
+          alert('验证成功')
         }else {
-          alert('号码不对')
+          console.log(this.inputText)
+          alert('验证失败')
         }
       }
+
     }
+
   }
+
+
+
+
 </script>
 
 <style lang="stylus" rel="stylesheet/stylus"4e>
@@ -107,6 +145,21 @@ var Regx;
       border-bottom #e2e2e2 solid 1px;
       padding 1.2em 0 1.2em 30px;
       position relative
+      #v_container
+        position absolute
+        right 2px
+        top 15px
+        width 110px
+        height 30px
+        width: 9em
+      .acquiring
+        background: #fed171;
+        border-radius: 30px;
+        text-align center
+        margin 0 10px
+        color white
+        border none
+        font-size 15px
       .mNumIco
         background:url("./ico1.png") no-repeat
         background-size contain
