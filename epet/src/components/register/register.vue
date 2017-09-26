@@ -4,7 +4,7 @@
         <ul class="mform ml" >
           <li>
             <span class="mNumIco"></span>
-            <input type="text" placeholder="请输入手机号码" id="inputText">
+            <input type="text" placeholder="请输入手机号码" id="inputText"  @input="eventChange">
           </li>
         </ul>
 
@@ -43,8 +43,8 @@
         </div>
 
 
-        <div class="mt20" @click="eventButton" v-show="isShow" :class="">
-          <button class="btn-login" onpropertychange="eventChange">下一步</button>
+        <div class="mt20" @click="eventButton" v-show="isShow" >
+          <button class="btn-login " :class='[TagColor]'>下一步</button>
         </div>
     </form>
   </div>
@@ -59,13 +59,21 @@ var Regx;
       return{
         isShow:true,
         inputval:'',
-        innerHTML:''
+        innerHTML:'',
+        TagColor:'btn-login'
       }
     },
     methods:{
-      eventChange(){
 
+      eventChange(){
+        var inputval =document.getElementById("inputText").value;
+        if(inputval){
+          this.TagColor='Tag'
+        }else {
+          this.TagColor='btn-login'
+        }
       },
+
 
       eventButton(){
 
@@ -138,7 +146,17 @@ var Regx;
         padding 5px 0
         text-align center
         height 30px
-        /*background:red*/
         border none
-
+      .Tag
+        background:red
+        color white
+        display block
+        margin 1 10%
+        width 80%
+        border-radius 30px
+        font-size 15px
+        padding 5px 0
+        text-align center
+        height 30px
+        border none
 </style>

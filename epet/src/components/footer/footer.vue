@@ -36,6 +36,7 @@
     position fixed
     bottom 0
     background: peachpuff
+    z-index: 150
     .tab-item
       width 0
       flex 1
