@@ -25,8 +25,14 @@
     <!--登录-->
     <div class="es_por4">
       <ul>
-        <li @click="Tablogo"><a href="javascript:;">普通登录</a><i></i></li>
-        <li @click="loginTodo"><a href="javascript:;">手机动态密码登录</a><i></i></li>
+        <li @click="Tablogo" class="firstI">
+          <a href="javascript:;">普通登录</a>
+          <i :class="{active:have}"></i>
+        </li>
+        <li @click="loginTodo">
+          <a href="javascript:;">手机动态密码登录</a>
+          <i :class="{active:!have}"></i>
+        </li>
       </ul>
     </div>
   </div>
@@ -119,14 +125,16 @@
     data(){
       return{
         isShow: true,
+        have:true
       }
     },
 
     methods:{
+
       Tablogo(){
         if(!this.isShow) {
           this.isShow = !this.isShow
-
+          this.have=!this.have
         }
       },
       loginTodo(){
@@ -134,6 +142,7 @@
           return
         }else {
           this.isShow = !this.isShow
+          this.have=!this.have
         }
       }
     },
@@ -183,9 +192,23 @@
           text-align center
           height: 44px
           line-height 44px
+          position relative
           a
             color #fff
             font-size 15px
+            display: block;
+          .active
+            width: 0;
+            height: 0;
+            border-left: 10px solid transparent;
+            border-right: 10px solid transparent;
+            border-bottom: 10px solid #fff;
+            position: absolute;
+            bottom: 0px;
+            left: 0;
+            right: 0;
+            margin: auto;
+
   .bgfff
     background: #fff
     .mformBox
