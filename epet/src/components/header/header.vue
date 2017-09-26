@@ -18,7 +18,7 @@
       </div>
 
       <!--头部-->
-      <div class="header">
+      <div class="header" v-show="isShow">
         <div class="content">
           <div class="epet-search">
             <div class="location">
@@ -37,12 +37,30 @@
           </div>
 
         </div>
+      </div >
+
+      <div type="swithcdog" class="go-dog" @click="dogClick"></div>
+
+     <!--小狗里边的内容-->
+      <div class="DOG" v-show="!isShow" style="background: #fff; z-index: 205; height: 1000px">
+        <div class="dogcontent">
+          <div class="main">
+            <p>DOG<b>_</b></p>
+            <p>亲爱的小主</p>
+            <p>您将进入狗狗站</p>
+            <ul>
+              <li><img src="//static.epetbar.com/static_web/wap/src/images/change-cat.png" alt=""></li>
+            </ul>
+          </div>
+        </div>
+        <a href="JavaScript:;">X</a>
       </div>
+
     </div>
 
 
     <!--导航-->
-    <div class="nav" ref="nav">
+    <div class="nav" ref="nav" v-show="isShow">
       <ul class="tab">
         <li class="tab-item">
           <router-link to="/home/one">首页</router-link>
@@ -89,9 +107,22 @@
 
        })
     },
+
     closeDownload () {
       this.isShow = !this.isShow
     },
+
+    methods:{
+      dogClick(){
+        if(this.isShow) {
+          this.isShow = !this.isShow
+          this.have=!this.have
+         }else {
+          this.isShow = !this.isShow
+          this.have=!this.have
+         }
+        }
+      }
   }
 </script>
 
@@ -126,6 +157,22 @@
               .close-btn
                 line-height 55px
                 margin-left 10px
+      .go-dog
+        background-image url("./godog (1).png")
+        width: 41px;
+        height: 46px;
+        background-size: 80px auto;
+        position: fixed;
+        bottom: 15%;
+        right: -1px;
+        z-index: 2;
+        background-position 0 0
+        animation: nnh 2.5s steps(2) infinite;
+        @keyframes nnh
+          0%
+           background-position 0px
+          100%
+           background-position -81px
       .header
         width 100%
         .content
@@ -163,6 +210,8 @@
             .epet-category
               display inline-block
               vertical-align top
+
+
     .nav
       /*position relative*/
       .tab

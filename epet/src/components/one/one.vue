@@ -1,7 +1,7 @@
 <template>
   <!--轮播图-->
 
- <div>
+ <div >
    <!--<scroller>-->
   <div class="warp">
     <mt-swipe :auto="4000" style="height: 200px">
